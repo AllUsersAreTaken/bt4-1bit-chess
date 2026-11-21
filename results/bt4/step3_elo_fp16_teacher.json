@@ -1,0 +1,152 @@
+{
+ "label": "fp16_teacher",
+ "ladder": [
+  1320,
+  1600
+ ],
+ "games_per_rung": 8,
+ "sf_movetime": 0.02,
+ "seed": 0,
+ "max_ply": 140,
+ "fit": {
+  "rating": 3595.0,
+  "lo": 3595.0,
+  "hi": 3595.0,
+  "n": 16,
+  "score": 1.0,
+  "decisive": 16
+ },
+ "games": [
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 41,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 56,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 45,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 30,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 29,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 60,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 55,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 44,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1600,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 59,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1600,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 48,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1600,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 53,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1600,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 56,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1600,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 89,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1600,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 74,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1600,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 49,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1600,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 48,
+   "model_is_white": false,
+   "reason": "checkmate"
+  }
+ ],
+ "wall_s": 15.2,
+ "model_moves": 390,
+ "model_s_per_move": 0.01
+}

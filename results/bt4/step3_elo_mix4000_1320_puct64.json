@@ -1,0 +1,152 @@
+{
+ "label": "step2_weights_mix4000",
+ "ladder": [
+  1320
+ ],
+ "games_per_rung": 16,
+ "sims": 64,
+ "sf_movetime": 0.02,
+ "seed": 7,
+ "max_ply": 140,
+ "fit": {
+  "rating": 1510.0,
+  "lo": 1340.0,
+  "hi": 1790.0,
+  "n": 16,
+  "score": 0.75,
+  "decisive": 14
+ },
+ "games": [
+  {
+   "opp_elo": 1320,
+   "score": 0.0,
+   "result": "0-1",
+   "plies": 140,
+   "model_is_white": true,
+   "reason": "adjudicated"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 76,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 103,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 124,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 101,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 0.0,
+   "result": "1-0",
+   "plies": 101,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 47,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 52,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 0.5,
+   "result": "1/2-1/2",
+   "plies": 73,
+   "model_is_white": true,
+   "reason": "draw_rule"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 92,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 140,
+   "model_is_white": true,
+   "reason": "adjudicated"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 64,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 0.0,
+   "result": "0-1",
+   "plies": 76,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 96,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 0.5,
+   "result": "1/2-1/2",
+   "plies": 140,
+   "model_is_white": true,
+   "reason": "adjudicated"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 34,
+   "model_is_white": false,
+   "reason": "checkmate"
+  }
+ ],
+ "wall_s": 1253.1,
+ "model_moves": 699,
+ "model_s_per_move": 1.7612
+}

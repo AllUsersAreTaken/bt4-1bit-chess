@@ -1,0 +1,47 @@
+{
+ "head": {
+  "arm": "itq",
+  "scope": "scope2",
+  "trainable": 150258345,
+  "bits": 156127920,
+  "bpw": 1.0415,
+  "batch": 32,
+  "steps": 2,
+  "lr_sign": 0.0005,
+  "lr_scale": 0.002,
+  "pool": 512,
+  "w": {
+   "policy": 1.0,
+   "value": 1.0,
+   "hidden": 1.0
+  }
+ },
+ "history": [
+  {
+   "step": 0,
+   "solve_top1": 0.0895,
+   "solve_top5": 0.2965,
+   "agree": 0.072,
+   "kl": 2.4741,
+   "pos_per_s": 765.4
+  },
+  {
+   "step": 1,
+   "solve_top1": 0.2565,
+   "solve_top5": 0.5535,
+   "agree": 0.135,
+   "kl": 2.4726,
+   "pos_per_s": 848.8
+  },
+  {
+   "step": 2,
+   "solve_top1": 0.7575,
+   "solve_top5": 0.824,
+   "agree": 0.027,
+   "kl": 2.4749,
+   "pos_per_s": 826.8
+  }
+ ],
+ "wall_s": 5.2,
+ "peak_gib": 6.38
+}

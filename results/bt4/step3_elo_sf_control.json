@@ -1,0 +1,282 @@
+{
+ "label": "sf_control",
+ "ladder": [
+  1320,
+  1600,
+  1900,
+  2200
+ ],
+ "games_per_rung": 8,
+ "sf_movetime": 0.01,
+ "seed": 0,
+ "max_ply": 140,
+ "fit": {
+  "rating": 1610.0,
+  "lo": 1445.0,
+  "hi": 1780.0,
+  "n": 32,
+  "score": 0.4062,
+  "decisive": 30,
+  "control_anchor": 1500,
+  "recovers_anchor": true
+ },
+ "games": [
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 65,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 72,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 107,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 102,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 0.0,
+   "result": "0-1",
+   "plies": 140,
+   "model_is_white": true,
+   "reason": "adjudicated"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 74,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 93,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1320,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 68,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1600,
+   "score": 0.0,
+   "result": "0-1",
+   "plies": 48,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1600,
+   "score": 0.0,
+   "result": "1-0",
+   "plies": 71,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1600,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 140,
+   "model_is_white": true,
+   "reason": "adjudicated"
+  },
+  {
+   "opp_elo": 1600,
+   "score": 0.0,
+   "result": "1-0",
+   "plies": 89,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1600,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 113,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1600,
+   "score": 0.0,
+   "result": "1-0",
+   "plies": 69,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1600,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 71,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1600,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 140,
+   "model_is_white": false,
+   "reason": "adjudicated"
+  },
+  {
+   "opp_elo": 1900,
+   "score": 0.0,
+   "result": "0-1",
+   "plies": 108,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1900,
+   "score": 0.0,
+   "result": "1-0",
+   "plies": 71,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1900,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 105,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1900,
+   "score": 0.0,
+   "result": "1-0",
+   "plies": 59,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1900,
+   "score": 0.0,
+   "result": "0-1",
+   "plies": 86,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1900,
+   "score": 0.0,
+   "result": "1-0",
+   "plies": 140,
+   "model_is_white": false,
+   "reason": "adjudicated"
+  },
+  {
+   "opp_elo": 1900,
+   "score": 0.0,
+   "result": "0-1",
+   "plies": 140,
+   "model_is_white": true,
+   "reason": "adjudicated"
+  },
+  {
+   "opp_elo": 1900,
+   "score": 0.0,
+   "result": "1-0",
+   "plies": 55,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 2200,
+   "score": 0.0,
+   "result": "0-1",
+   "plies": 140,
+   "model_is_white": true,
+   "reason": "adjudicated"
+  },
+  {
+   "opp_elo": 2200,
+   "score": 0.0,
+   "result": "1-0",
+   "plies": 140,
+   "model_is_white": false,
+   "reason": "adjudicated"
+  },
+  {
+   "opp_elo": 2200,
+   "score": 0.0,
+   "result": "0-1",
+   "plies": 50,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 2200,
+   "score": 0.0,
+   "result": "1-0",
+   "plies": 63,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 2200,
+   "score": 0.5,
+   "result": "1/2-1/2",
+   "plies": 57,
+   "model_is_white": true,
+   "reason": "draw_rule"
+  },
+  {
+   "opp_elo": 2200,
+   "score": 0.0,
+   "result": "1-0",
+   "plies": 95,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 2200,
+   "score": 0.5,
+   "result": "1/2-1/2",
+   "plies": 140,
+   "model_is_white": true,
+   "reason": "adjudicated"
+  },
+  {
+   "opp_elo": 2200,
+   "score": 0.0,
+   "result": "1-0",
+   "plies": 83,
+   "model_is_white": false,
+   "reason": "checkmate"
+  }
+ ],
+ "wall_s": 30.2
+}

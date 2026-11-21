@@ -1,0 +1,123 @@
+{
+ "head": {
+  "arm": "qubo_act",
+  "scope": "scope2",
+  "seed": 0,
+  "trainable": 150258345,
+  "bits": 156127920,
+  "bpw": 1.0415,
+  "batch": 64,
+  "steps": 2000,
+  "lr_sign": 0.0001,
+  "lr_scale": 0.0002,
+  "pool": 60000,
+  "w": {
+   "policy": 1.0,
+   "value": 1.0,
+   "hidden": 1.0
+  }
+ },
+ "history": [
+  {
+   "step": 0,
+   "solve_top1": 0.235,
+   "solve_top5": 0.479,
+   "agree": 0.2025,
+   "kl": 2.2931,
+   "nonfinite": 0,
+   "pos_per_s": 365.3
+  },
+  {
+   "step": 200,
+   "solve_top1": 0.526,
+   "solve_top5": 0.92,
+   "agree": 0.407,
+   "kl": 1.0882,
+   "nonfinite": 0,
+   "pos_per_s": 371.7
+  },
+  {
+   "step": 400,
+   "solve_top1": 0.6455,
+   "solve_top5": 0.9555,
+   "agree": 0.5115,
+   "kl": 0.8539,
+   "nonfinite": 0,
+   "pos_per_s": 372.2
+  },
+  {
+   "step": 600,
+   "solve_top1": 0.6905,
+   "solve_top5": 0.961,
+   "agree": 0.547,
+   "kl": 0.7338,
+   "nonfinite": 0,
+   "pos_per_s": 303.3
+  },
+  {
+   "step": 800,
+   "solve_top1": 0.697,
+   "solve_top5": 0.9595,
+   "agree": 0.5595,
+   "kl": 0.7202,
+   "nonfinite": 0,
+   "pos_per_s": 198.3
+  },
+  {
+   "step": 1000,
+   "solve_top1": 0.7345,
+   "solve_top5": 0.974,
+   "agree": 0.594,
+   "kl": 0.6567,
+   "nonfinite": 0,
+   "pos_per_s": 240.8
+  },
+  {
+   "step": 1200,
+   "solve_top1": 0.7355,
+   "solve_top5": 0.9665,
+   "agree": 0.5915,
+   "kl": 0.6337,
+   "nonfinite": 0,
+   "pos_per_s": 208.9
+  },
+  {
+   "step": 1400,
+   "solve_top1": 0.7455,
+   "solve_top5": 0.976,
+   "agree": 0.5955,
+   "kl": 0.6106,
+   "nonfinite": 0,
+   "pos_per_s": 231.7
+  },
+  {
+   "step": 1600,
+   "solve_top1": 0.7535,
+   "solve_top5": 0.973,
+   "agree": 0.6135,
+   "kl": 0.5888,
+   "nonfinite": 0,
+   "pos_per_s": 371.0
+  },
+  {
+   "step": 1800,
+   "solve_top1": 0.755,
+   "solve_top5": 0.9755,
+   "agree": 0.6165,
+   "kl": 0.593,
+   "nonfinite": 0,
+   "pos_per_s": 208.4
+  },
+  {
+   "step": 2000,
+   "solve_top1": 0.76,
+   "solve_top5": 0.9735,
+   "agree": 0.613,
+   "kl": 0.6251,
+   "nonfinite": 0,
+   "pos_per_s": 358.7
+  }
+ ],
+ "wall_s": 1848.3,
+ "peak_gib": 7.64
+}

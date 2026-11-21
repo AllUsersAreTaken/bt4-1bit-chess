@@ -1,0 +1,1274 @@
+{
+ "head": {
+  "arm": "qubo_act",
+  "scope": "scope2",
+  "rounds": 1,
+  "n_matrices": 105,
+  "quant_params": 149913600,
+  "bits": 156127920,
+  "bpw": 1.0415,
+  "quant_s": 153.2
+ },
+ "per_layer": [
+  {
+   "label": "blk00.sm1",
+   "shape": [
+    32,
+    1024
+   ],
+   "r": 31,
+   "bits": 50128,
+   "act_err_before": 0.654802,
+   "act_err_after": 0.522271,
+   "secs": 0.14
+  },
+  {
+   "label": "blk00.sm2",
+   "shape": [
+    256,
+    2048
+   ],
+   "r": 228,
+   "bits": 565824,
+   "act_err_before": 0.510246,
+   "act_err_after": 0.261122,
+   "secs": 0.51
+  },
+  {
+   "label": "blk00.sm3",
+   "shape": [
+    8192,
+    256
+   ],
+   "r": 248,
+   "bits": 2234240,
+   "act_err_before": 0.376889,
+   "act_err_after": 0.270013,
+   "secs": 0.63
+  },
+  {
+   "label": "blk00.in_proj",
+   "shape": [
+    3072,
+    1024
+   ],
+   "r": 768,
+   "bits": 3223552,
+   "act_err_before": 0.584485,
+   "act_err_after": 0.215896,
+   "secs": 3.19
+  },
+  {
+   "label": "blk00.out_proj",
+   "shape": [
+    1024,
+    1024
+   ],
+   "r": 512,
+   "bits": 1089536,
+   "act_err_before": 0.638733,
+   "act_err_after": 0.241289,
+   "secs": 1.46
+  },
+  {
+   "label": "blk00.ff1",
+   "shape": [
+    1536,
+    1024
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.516918,
+   "act_err_after": 0.127251,
+   "secs": 2.11
+  },
+  {
+   "label": "blk00.ff2",
+   "shape": [
+    1024,
+    1536
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.48072,
+   "act_err_after": 0.306812,
+   "secs": 2.2
+  },
+  {
+   "label": "blk01.sm1",
+   "shape": [
+    32,
+    1024
+   ],
+   "r": 31,
+   "bits": 50128,
+   "act_err_before": 0.636197,
+   "act_err_after": 0.580621,
+   "secs": 0.06
+  },
+  {
+   "label": "blk01.sm2",
+   "shape": [
+    256,
+    2048
+   ],
+   "r": 228,
+   "bits": 565824,
+   "act_err_before": 0.530893,
+   "act_err_after": 0.301415,
+   "secs": 0.49
+  },
+  {
+   "label": "blk01.sm3",
+   "shape": [
+    8192,
+    256
+   ],
+   "r": 248,
+   "bits": 2234240,
+   "act_err_before": 0.355582,
+   "act_err_after": 0.242191,
+   "secs": 0.63
+  },
+  {
+   "label": "blk01.in_proj",
+   "shape": [
+    3072,
+    1024
+   ],
+   "r": 768,
+   "bits": 3223552,
+   "act_err_before": 0.619057,
+   "act_err_after": 0.302769,
+   "secs": 3.11
+  },
+  {
+   "label": "blk01.out_proj",
+   "shape": [
+    1024,
+    1024
+   ],
+   "r": 512,
+   "bits": 1089536,
+   "act_err_before": 0.680031,
+   "act_err_after": 0.345373,
+   "secs": 1.56
+  },
+  {
+   "label": "blk01.ff1",
+   "shape": [
+    1536,
+    1024
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.540886,
+   "act_err_after": 0.149378,
+   "secs": 2.12
+  },
+  {
+   "label": "blk01.ff2",
+   "shape": [
+    1024,
+    1536
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.475407,
+   "act_err_after": 0.355853,
+   "secs": 2.24
+  },
+  {
+   "label": "blk02.sm1",
+   "shape": [
+    32,
+    1024
+   ],
+   "r": 31,
+   "bits": 50128,
+   "act_err_before": 0.648456,
+   "act_err_after": 0.572845,
+   "secs": 0.05
+  },
+  {
+   "label": "blk02.sm2",
+   "shape": [
+    256,
+    2048
+   ],
+   "r": 228,
+   "bits": 565824,
+   "act_err_before": 0.529436,
+   "act_err_after": 0.244797,
+   "secs": 0.51
+  },
+  {
+   "label": "blk02.sm3",
+   "shape": [
+    8192,
+    256
+   ],
+   "r": 248,
+   "bits": 2234240,
+   "act_err_before": 0.369145,
+   "act_err_after": 0.255351,
+   "secs": 0.63
+  },
+  {
+   "label": "blk02.in_proj",
+   "shape": [
+    3072,
+    1024
+   ],
+   "r": 768,
+   "bits": 3223552,
+   "act_err_before": 0.636227,
+   "act_err_after": 0.332085,
+   "secs": 3.09
+  },
+  {
+   "label": "blk02.out_proj",
+   "shape": [
+    1024,
+    1024
+   ],
+   "r": 512,
+   "bits": 1089536,
+   "act_err_before": 0.68697,
+   "act_err_after": 0.383348,
+   "secs": 1.47
+  },
+  {
+   "label": "blk02.ff1",
+   "shape": [
+    1536,
+    1024
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.548286,
+   "act_err_after": 0.157302,
+   "secs": 2.1
+  },
+  {
+   "label": "blk02.ff2",
+   "shape": [
+    1024,
+    1536
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.444336,
+   "act_err_after": 0.30804,
+   "secs": 2.28
+  },
+  {
+   "label": "blk03.sm1",
+   "shape": [
+    32,
+    1024
+   ],
+   "r": 31,
+   "bits": 50128,
+   "act_err_before": 0.658174,
+   "act_err_after": 0.615101,
+   "secs": 0.06
+  },
+  {
+   "label": "blk03.sm2",
+   "shape": [
+    256,
+    2048
+   ],
+   "r": 228,
+   "bits": 565824,
+   "act_err_before": 0.548772,
+   "act_err_after": 0.310858,
+   "secs": 0.53
+  },
+  {
+   "label": "blk03.sm3",
+   "shape": [
+    8192,
+    256
+   ],
+   "r": 248,
+   "bits": 2234240,
+   "act_err_before": 0.363345,
+   "act_err_after": 0.258256,
+   "secs": 0.63
+  },
+  {
+   "label": "blk03.in_proj",
+   "shape": [
+    3072,
+    1024
+   ],
+   "r": 768,
+   "bits": 3223552,
+   "act_err_before": 0.635619,
+   "act_err_after": 0.350945,
+   "secs": 3.1
+  },
+  {
+   "label": "blk03.out_proj",
+   "shape": [
+    1024,
+    1024
+   ],
+   "r": 512,
+   "bits": 1089536,
+   "act_err_before": 0.690204,
+   "act_err_after": 0.416318,
+   "secs": 1.48
+  },
+  {
+   "label": "blk03.ff1",
+   "shape": [
+    1536,
+    1024
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.562976,
+   "act_err_after": 0.16421,
+   "secs": 2.08
+  },
+  {
+   "label": "blk03.ff2",
+   "shape": [
+    1024,
+    1536
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.501309,
+   "act_err_after": 0.399083,
+   "secs": 2.25
+  },
+  {
+   "label": "blk04.sm1",
+   "shape": [
+    32,
+    1024
+   ],
+   "r": 31,
+   "bits": 50128,
+   "act_err_before": 0.640052,
+   "act_err_after": 0.575787,
+   "secs": 0.06
+  },
+  {
+   "label": "blk04.sm2",
+   "shape": [
+    256,
+    2048
+   ],
+   "r": 228,
+   "bits": 565824,
+   "act_err_before": 0.526558,
+   "act_err_after": 0.271447,
+   "secs": 0.52
+  },
+  {
+   "label": "blk04.sm3",
+   "shape": [
+    8192,
+    256
+   ],
+   "r": 248,
+   "bits": 2234240,
+   "act_err_before": 0.311116,
+   "act_err_after": 0.200378,
+   "secs": 0.6
+  },
+  {
+   "label": "blk04.in_proj",
+   "shape": [
+    3072,
+    1024
+   ],
+   "r": 768,
+   "bits": 3223552,
+   "act_err_before": 0.635053,
+   "act_err_after": 0.353198,
+   "secs": 3.2
+  },
+  {
+   "label": "blk04.out_proj",
+   "shape": [
+    1024,
+    1024
+   ],
+   "r": 512,
+   "bits": 1089536,
+   "act_err_before": 0.683916,
+   "act_err_after": 0.420221,
+   "secs": 1.54
+  },
+  {
+   "label": "blk04.ff1",
+   "shape": [
+    1536,
+    1024
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.543071,
+   "act_err_after": 0.170757,
+   "secs": 2.1
+  },
+  {
+   "label": "blk04.ff2",
+   "shape": [
+    1024,
+    1536
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.401991,
+   "act_err_after": 0.307302,
+   "secs": 2.2
+  },
+  {
+   "label": "blk05.sm1",
+   "shape": [
+    32,
+    1024
+   ],
+   "r": 31,
+   "bits": 50128,
+   "act_err_before": 0.6612,
+   "act_err_after": 0.619838,
+   "secs": 0.06
+  },
+  {
+   "label": "blk05.sm2",
+   "shape": [
+    256,
+    2048
+   ],
+   "r": 228,
+   "bits": 565824,
+   "act_err_before": 0.526289,
+   "act_err_after": 0.271,
+   "secs": 0.51
+  },
+  {
+   "label": "blk05.sm3",
+   "shape": [
+    8192,
+    256
+   ],
+   "r": 248,
+   "bits": 2234240,
+   "act_err_before": 0.295257,
+   "act_err_after": 0.185926,
+   "secs": 0.61
+  },
+  {
+   "label": "blk05.in_proj",
+   "shape": [
+    3072,
+    1024
+   ],
+   "r": 768,
+   "bits": 3223552,
+   "act_err_before": 0.628171,
+   "act_err_after": 0.369187,
+   "secs": 3.12
+  },
+  {
+   "label": "blk05.out_proj",
+   "shape": [
+    1024,
+    1024
+   ],
+   "r": 512,
+   "bits": 1089536,
+   "act_err_before": 0.676193,
+   "act_err_after": 0.450732,
+   "secs": 1.45
+  },
+  {
+   "label": "blk05.ff1",
+   "shape": [
+    1536,
+    1024
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.535723,
+   "act_err_after": 0.174659,
+   "secs": 2.05
+  },
+  {
+   "label": "blk05.ff2",
+   "shape": [
+    1024,
+    1536
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.336046,
+   "act_err_after": 0.244157,
+   "secs": 2.21
+  },
+  {
+   "label": "blk06.sm1",
+   "shape": [
+    32,
+    1024
+   ],
+   "r": 31,
+   "bits": 50128,
+   "act_err_before": 0.667639,
+   "act_err_after": 0.618275,
+   "secs": 0.06
+  },
+  {
+   "label": "blk06.sm2",
+   "shape": [
+    256,
+    2048
+   ],
+   "r": 228,
+   "bits": 565824,
+   "act_err_before": 0.51272,
+   "act_err_after": 0.286048,
+   "secs": 0.53
+  },
+  {
+   "label": "blk06.sm3",
+   "shape": [
+    8192,
+    256
+   ],
+   "r": 248,
+   "bits": 2234240,
+   "act_err_before": 0.321362,
+   "act_err_after": 0.214707,
+   "secs": 0.64
+  },
+  {
+   "label": "blk06.in_proj",
+   "shape": [
+    3072,
+    1024
+   ],
+   "r": 768,
+   "bits": 3223552,
+   "act_err_before": 0.630704,
+   "act_err_after": 0.387294,
+   "secs": 3.12
+  },
+  {
+   "label": "blk06.out_proj",
+   "shape": [
+    1024,
+    1024
+   ],
+   "r": 512,
+   "bits": 1089536,
+   "act_err_before": 0.673736,
+   "act_err_after": 0.47009,
+   "secs": 1.47
+  },
+  {
+   "label": "blk06.ff1",
+   "shape": [
+    1536,
+    1024
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.557477,
+   "act_err_after": 0.174692,
+   "secs": 2.05
+  },
+  {
+   "label": "blk06.ff2",
+   "shape": [
+    1024,
+    1536
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.355068,
+   "act_err_after": 0.25793,
+   "secs": 2.17
+  },
+  {
+   "label": "blk07.sm1",
+   "shape": [
+    32,
+    1024
+   ],
+   "r": 31,
+   "bits": 50128,
+   "act_err_before": 0.633766,
+   "act_err_after": 0.597316,
+   "secs": 0.06
+  },
+  {
+   "label": "blk07.sm2",
+   "shape": [
+    256,
+    2048
+   ],
+   "r": 228,
+   "bits": 565824,
+   "act_err_before": 0.538463,
+   "act_err_after": 0.277963,
+   "secs": 0.51
+  },
+  {
+   "label": "blk07.sm3",
+   "shape": [
+    8192,
+    256
+   ],
+   "r": 248,
+   "bits": 2234240,
+   "act_err_before": 0.308628,
+   "act_err_after": 0.221688,
+   "secs": 0.61
+  },
+  {
+   "label": "blk07.in_proj",
+   "shape": [
+    3072,
+    1024
+   ],
+   "r": 768,
+   "bits": 3223552,
+   "act_err_before": 0.629878,
+   "act_err_after": 0.381255,
+   "secs": 3.16
+  },
+  {
+   "label": "blk07.out_proj",
+   "shape": [
+    1024,
+    1024
+   ],
+   "r": 512,
+   "bits": 1089536,
+   "act_err_before": 0.668342,
+   "act_err_after": 0.465035,
+   "secs": 1.47
+  },
+  {
+   "label": "blk07.ff1",
+   "shape": [
+    1536,
+    1024
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.537524,
+   "act_err_after": 0.168996,
+   "secs": 2.12
+  },
+  {
+   "label": "blk07.ff2",
+   "shape": [
+    1024,
+    1536
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.355468,
+   "act_err_after": 0.23956,
+   "secs": 2.18
+  },
+  {
+   "label": "blk08.sm1",
+   "shape": [
+    32,
+    1024
+   ],
+   "r": 31,
+   "bits": 50128,
+   "act_err_before": 0.644726,
+   "act_err_after": 0.568232,
+   "secs": 0.06
+  },
+  {
+   "label": "blk08.sm2",
+   "shape": [
+    256,
+    2048
+   ],
+   "r": 228,
+   "bits": 565824,
+   "act_err_before": 0.494836,
+   "act_err_after": 0.202792,
+   "secs": 0.52
+  },
+  {
+   "label": "blk08.sm3",
+   "shape": [
+    8192,
+    256
+   ],
+   "r": 248,
+   "bits": 2234240,
+   "act_err_before": 0.362907,
+   "act_err_after": 0.256963,
+   "secs": 0.64
+  },
+  {
+   "label": "blk08.in_proj",
+   "shape": [
+    3072,
+    1024
+   ],
+   "r": 768,
+   "bits": 3223552,
+   "act_err_before": 0.622746,
+   "act_err_after": 0.37461,
+   "secs": 3.12
+  },
+  {
+   "label": "blk08.out_proj",
+   "shape": [
+    1024,
+    1024
+   ],
+   "r": 512,
+   "bits": 1089536,
+   "act_err_before": 0.662118,
+   "act_err_after": 0.45969,
+   "secs": 1.45
+  },
+  {
+   "label": "blk08.ff1",
+   "shape": [
+    1536,
+    1024
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.537432,
+   "act_err_after": 0.170884,
+   "secs": 2.08
+  },
+  {
+   "label": "blk08.ff2",
+   "shape": [
+    1024,
+    1536
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.334874,
+   "act_err_after": 0.277414,
+   "secs": 2.14
+  },
+  {
+   "label": "blk09.sm1",
+   "shape": [
+    32,
+    1024
+   ],
+   "r": 31,
+   "bits": 50128,
+   "act_err_before": 0.63294,
+   "act_err_after": 0.588214,
+   "secs": 0.05
+  },
+  {
+   "label": "blk09.sm2",
+   "shape": [
+    256,
+    2048
+   ],
+   "r": 228,
+   "bits": 565824,
+   "act_err_before": 0.51303,
+   "act_err_after": 0.256348,
+   "secs": 0.53
+  },
+  {
+   "label": "blk09.sm3",
+   "shape": [
+    8192,
+    256
+   ],
+   "r": 248,
+   "bits": 2234240,
+   "act_err_before": 0.325649,
+   "act_err_after": 0.221908,
+   "secs": 0.64
+  },
+  {
+   "label": "blk09.in_proj",
+   "shape": [
+    3072,
+    1024
+   ],
+   "r": 768,
+   "bits": 3223552,
+   "act_err_before": 0.616011,
+   "act_err_after": 0.38077,
+   "secs": 3.17
+  },
+  {
+   "label": "blk09.out_proj",
+   "shape": [
+    1024,
+    1024
+   ],
+   "r": 512,
+   "bits": 1089536,
+   "act_err_before": 0.662581,
+   "act_err_after": 0.481973,
+   "secs": 1.49
+  },
+  {
+   "label": "blk09.ff1",
+   "shape": [
+    1536,
+    1024
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.521422,
+   "act_err_after": 0.17274,
+   "secs": 2.15
+  },
+  {
+   "label": "blk09.ff2",
+   "shape": [
+    1024,
+    1536
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.266629,
+   "act_err_after": 0.174203,
+   "secs": 2.16
+  },
+  {
+   "label": "blk10.sm1",
+   "shape": [
+    32,
+    1024
+   ],
+   "r": 31,
+   "bits": 50128,
+   "act_err_before": 0.660397,
+   "act_err_after": 0.617789,
+   "secs": 0.05
+  },
+  {
+   "label": "blk10.sm2",
+   "shape": [
+    256,
+    2048
+   ],
+   "r": 228,
+   "bits": 565824,
+   "act_err_before": 0.529904,
+   "act_err_after": 0.273953,
+   "secs": 0.52
+  },
+  {
+   "label": "blk10.sm3",
+   "shape": [
+    8192,
+    256
+   ],
+   "r": 248,
+   "bits": 2234240,
+   "act_err_before": 0.32961,
+   "act_err_after": 0.223541,
+   "secs": 0.61
+  },
+  {
+   "label": "blk10.in_proj",
+   "shape": [
+    3072,
+    1024
+   ],
+   "r": 768,
+   "bits": 3223552,
+   "act_err_before": 0.600741,
+   "act_err_after": 0.367761,
+   "secs": 3.14
+  },
+  {
+   "label": "blk10.out_proj",
+   "shape": [
+    1024,
+    1024
+   ],
+   "r": 512,
+   "bits": 1089536,
+   "act_err_before": 0.661548,
+   "act_err_after": 0.485115,
+   "secs": 1.47
+  },
+  {
+   "label": "blk10.ff1",
+   "shape": [
+    1536,
+    1024
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.507821,
+   "act_err_after": 0.201766,
+   "secs": 2.17
+  },
+  {
+   "label": "blk10.ff2",
+   "shape": [
+    1024,
+    1536
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.263039,
+   "act_err_after": 0.180673,
+   "secs": 2.24
+  },
+  {
+   "label": "blk11.sm1",
+   "shape": [
+    32,
+    1024
+   ],
+   "r": 31,
+   "bits": 50128,
+   "act_err_before": 0.638957,
+   "act_err_after": 0.579228,
+   "secs": 0.05
+  },
+  {
+   "label": "blk11.sm2",
+   "shape": [
+    256,
+    2048
+   ],
+   "r": 228,
+   "bits": 565824,
+   "act_err_before": 0.525628,
+   "act_err_after": 0.211694,
+   "secs": 0.52
+  },
+  {
+   "label": "blk11.sm3",
+   "shape": [
+    8192,
+    256
+   ],
+   "r": 248,
+   "bits": 2234240,
+   "act_err_before": 0.318998,
+   "act_err_after": 0.230163,
+   "secs": 0.62
+  },
+  {
+   "label": "blk11.in_proj",
+   "shape": [
+    3072,
+    1024
+   ],
+   "r": 768,
+   "bits": 3223552,
+   "act_err_before": 0.587988,
+   "act_err_after": 0.333381,
+   "secs": 3.07
+  },
+  {
+   "label": "blk11.out_proj",
+   "shape": [
+    1024,
+    1024
+   ],
+   "r": 512,
+   "bits": 1089536,
+   "act_err_before": 0.664927,
+   "act_err_after": 0.468864,
+   "secs": 1.46
+  },
+  {
+   "label": "blk11.ff1",
+   "shape": [
+    1536,
+    1024
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.505059,
+   "act_err_after": 0.181407,
+   "secs": 2.1
+  },
+  {
+   "label": "blk11.ff2",
+   "shape": [
+    1024,
+    1536
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.288663,
+   "act_err_after": 0.163576,
+   "secs": 2.27
+  },
+  {
+   "label": "blk12.sm1",
+   "shape": [
+    32,
+    1024
+   ],
+   "r": 31,
+   "bits": 50128,
+   "act_err_before": 0.650098,
+   "act_err_after": 0.601448,
+   "secs": 0.05
+  },
+  {
+   "label": "blk12.sm2",
+   "shape": [
+    256,
+    2048
+   ],
+   "r": 228,
+   "bits": 565824,
+   "act_err_before": 0.525387,
+   "act_err_after": 0.221004,
+   "secs": 0.55
+  },
+  {
+   "label": "blk12.sm3",
+   "shape": [
+    8192,
+    256
+   ],
+   "r": 248,
+   "bits": 2234240,
+   "act_err_before": 0.339696,
+   "act_err_after": 0.248877,
+   "secs": 0.66
+  },
+  {
+   "label": "blk12.in_proj",
+   "shape": [
+    3072,
+    1024
+   ],
+   "r": 768,
+   "bits": 3223552,
+   "act_err_before": 0.617754,
+   "act_err_after": 0.365594,
+   "secs": 3.12
+  },
+  {
+   "label": "blk12.out_proj",
+   "shape": [
+    1024,
+    1024
+   ],
+   "r": 512,
+   "bits": 1089536,
+   "act_err_before": 0.650269,
+   "act_err_after": 0.448881,
+   "secs": 1.43
+  },
+  {
+   "label": "blk12.ff1",
+   "shape": [
+    1536,
+    1024
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.532844,
+   "act_err_after": 0.181851,
+   "secs": 2.05
+  },
+  {
+   "label": "blk12.ff2",
+   "shape": [
+    1024,
+    1536
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.336433,
+   "act_err_after": 0.230461,
+   "secs": 2.13
+  },
+  {
+   "label": "blk13.sm1",
+   "shape": [
+    32,
+    1024
+   ],
+   "r": 31,
+   "bits": 50128,
+   "act_err_before": 0.690408,
+   "act_err_after": 0.638216,
+   "secs": 0.06
+  },
+  {
+   "label": "blk13.sm2",
+   "shape": [
+    256,
+    2048
+   ],
+   "r": 228,
+   "bits": 565824,
+   "act_err_before": 0.531307,
+   "act_err_after": 0.27661,
+   "secs": 0.52
+  },
+  {
+   "label": "blk13.sm3",
+   "shape": [
+    8192,
+    256
+   ],
+   "r": 248,
+   "bits": 2234240,
+   "act_err_before": 0.360083,
+   "act_err_after": 0.240024,
+   "secs": 0.63
+  },
+  {
+   "label": "blk13.in_proj",
+   "shape": [
+    3072,
+    1024
+   ],
+   "r": 768,
+   "bits": 3223552,
+   "act_err_before": 0.629453,
+   "act_err_after": 0.376349,
+   "secs": 3.09
+  },
+  {
+   "label": "blk13.out_proj",
+   "shape": [
+    1024,
+    1024
+   ],
+   "r": 512,
+   "bits": 1089536,
+   "act_err_before": 0.658575,
+   "act_err_after": 0.446994,
+   "secs": 1.5
+  },
+  {
+   "label": "blk13.ff1",
+   "shape": [
+    1536,
+    1024
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.57035,
+   "act_err_after": 0.180641,
+   "secs": 2.12
+  },
+  {
+   "label": "blk13.ff2",
+   "shape": [
+    1024,
+    1536
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.437084,
+   "act_err_after": 0.232582,
+   "secs": 2.41
+  },
+  {
+   "label": "blk14.sm1",
+   "shape": [
+    32,
+    1024
+   ],
+   "r": 31,
+   "bits": 50128,
+   "act_err_before": 0.655325,
+   "act_err_after": 0.555854,
+   "secs": 0.06
+  },
+  {
+   "label": "blk14.sm2",
+   "shape": [
+    256,
+    2048
+   ],
+   "r": 228,
+   "bits": 565824,
+   "act_err_before": 0.519948,
+   "act_err_after": 0.195964,
+   "secs": 0.52
+  },
+  {
+   "label": "blk14.sm3",
+   "shape": [
+    8192,
+    256
+   ],
+   "r": 248,
+   "bits": 2234240,
+   "act_err_before": 0.355002,
+   "act_err_after": 0.215738,
+   "secs": 0.63
+  },
+  {
+   "label": "blk14.in_proj",
+   "shape": [
+    3072,
+    1024
+   ],
+   "r": 768,
+   "bits": 3223552,
+   "act_err_before": 0.573144,
+   "act_err_after": 0.238627,
+   "secs": 3.17
+  },
+  {
+   "label": "blk14.out_proj",
+   "shape": [
+    1024,
+    1024
+   ],
+   "r": 512,
+   "bits": 1089536,
+   "act_err_before": 0.676567,
+   "act_err_after": 0.339164,
+   "secs": 1.39
+  },
+  {
+   "label": "blk14.ff1",
+   "shape": [
+    1536,
+    1024
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.709992,
+   "act_err_after": 0.152808,
+   "secs": 2.06
+  },
+  {
+   "label": "blk14.ff2",
+   "shape": [
+    1024,
+    1536
+   ],
+   "r": 614,
+   "bits": 1622624,
+   "act_err_before": 0.554721,
+   "act_err_after": 0.213018,
+   "secs": 2.15
+  }
+ ]
+}

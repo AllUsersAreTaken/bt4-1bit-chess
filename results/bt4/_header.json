@@ -1,0 +1,4820 @@
+{
+ "encoder_layers.encoder_layer_0.ffn.dense1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1536
+  ],
+  "data_offsets": [
+   0,
+   6144
+  ]
+ },
+ "encoder_layers.encoder_layer_0.ffn.dense1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1536,
+   1024
+  ],
+  "data_offsets": [
+   6144,
+   6297600
+  ]
+ },
+ "encoder_layers.encoder_layer_0.ffn.dense2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   6297600,
+   6301696
+  ]
+ },
+ "encoder_layers.encoder_layer_0.ffn.dense2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1536
+  ],
+  "data_offsets": [
+   6301696,
+   12593152
+  ]
+ },
+ "encoder_layers.encoder_layer_0.ln1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   12593152,
+   12597248
+  ]
+ },
+ "encoder_layers.encoder_layer_0.ln1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   12597248,
+   12601344
+  ]
+ },
+ "encoder_layers.encoder_layer_0.ln2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   12601344,
+   12605440
+  ]
+ },
+ "encoder_layers.encoder_layer_0.ln2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   12605440,
+   12609536
+  ]
+ },
+ "encoder_layers.encoder_layer_0.mha.k_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   12609536,
+   12613632
+  ]
+ },
+ "encoder_layers.encoder_layer_0.mha.k_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   12613632,
+   16807936
+  ]
+ },
+ "encoder_layers.encoder_layer_0.mha.out_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   16807936,
+   16812032
+  ]
+ },
+ "encoder_layers.encoder_layer_0.mha.out_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   16812032,
+   21006336
+  ]
+ },
+ "encoder_layers.encoder_layer_0.mha.q_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   21006336,
+   21010432
+  ]
+ },
+ "encoder_layers.encoder_layer_0.mha.q_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   21010432,
+   25204736
+  ]
+ },
+ "encoder_layers.encoder_layer_0.mha.smolgen.compress.weight": {
+  "dtype": "F32",
+  "shape": [
+   32,
+   1024
+  ],
+  "data_offsets": [
+   25204736,
+   25335808
+  ]
+ },
+ "encoder_layers.encoder_layer_0.mha.smolgen.gen_from.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   25335808,
+   25368576
+  ]
+ },
+ "encoder_layers.encoder_layer_0.mha.smolgen.gen_from.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192,
+   256
+  ],
+  "data_offsets": [
+   25368576,
+   33757184
+  ]
+ },
+ "encoder_layers.encoder_layer_0.mha.smolgen.gen_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   33757184,
+   33789952
+  ]
+ },
+ "encoder_layers.encoder_layer_0.mha.smolgen.gen_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   33789952,
+   33822720
+  ]
+ },
+ "encoder_layers.encoder_layer_0.mha.smolgen.hidden_dense.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   33822720,
+   33823744
+  ]
+ },
+ "encoder_layers.encoder_layer_0.mha.smolgen.hidden_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   256,
+   2048
+  ],
+  "data_offsets": [
+   33823744,
+   35920896
+  ]
+ },
+ "encoder_layers.encoder_layer_0.mha.smolgen.hidden_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   35920896,
+   35921920
+  ]
+ },
+ "encoder_layers.encoder_layer_0.mha.smolgen.hidden_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   35921920,
+   35922944
+  ]
+ },
+ "encoder_layers.encoder_layer_0.mha.smolgen.smol_weight_gen_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   4096,
+   256
+  ],
+  "data_offsets": [
+   35922944,
+   40117248
+  ]
+ },
+ "encoder_layers.encoder_layer_0.mha.v_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   40117248,
+   40121344
+  ]
+ },
+ "encoder_layers.encoder_layer_0.mha.v_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   40121344,
+   44315648
+  ]
+ },
+ "encoder_layers.encoder_layer_1.ffn.dense1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1536
+  ],
+  "data_offsets": [
+   44315648,
+   44321792
+  ]
+ },
+ "encoder_layers.encoder_layer_1.ffn.dense1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1536,
+   1024
+  ],
+  "data_offsets": [
+   44321792,
+   50613248
+  ]
+ },
+ "encoder_layers.encoder_layer_1.ffn.dense2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   50613248,
+   50617344
+  ]
+ },
+ "encoder_layers.encoder_layer_1.ffn.dense2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1536
+  ],
+  "data_offsets": [
+   50617344,
+   56908800
+  ]
+ },
+ "encoder_layers.encoder_layer_1.ln1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   56908800,
+   56912896
+  ]
+ },
+ "encoder_layers.encoder_layer_1.ln1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   56912896,
+   56916992
+  ]
+ },
+ "encoder_layers.encoder_layer_1.ln2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   56916992,
+   56921088
+  ]
+ },
+ "encoder_layers.encoder_layer_1.ln2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   56921088,
+   56925184
+  ]
+ },
+ "encoder_layers.encoder_layer_1.mha.k_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   56925184,
+   56929280
+  ]
+ },
+ "encoder_layers.encoder_layer_1.mha.k_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   56929280,
+   61123584
+  ]
+ },
+ "encoder_layers.encoder_layer_1.mha.out_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   61123584,
+   61127680
+  ]
+ },
+ "encoder_layers.encoder_layer_1.mha.out_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   61127680,
+   65321984
+  ]
+ },
+ "encoder_layers.encoder_layer_1.mha.q_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   65321984,
+   65326080
+  ]
+ },
+ "encoder_layers.encoder_layer_1.mha.q_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   65326080,
+   69520384
+  ]
+ },
+ "encoder_layers.encoder_layer_1.mha.smolgen.compress.weight": {
+  "dtype": "F32",
+  "shape": [
+   32,
+   1024
+  ],
+  "data_offsets": [
+   69520384,
+   69651456
+  ]
+ },
+ "encoder_layers.encoder_layer_1.mha.smolgen.gen_from.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   69651456,
+   69684224
+  ]
+ },
+ "encoder_layers.encoder_layer_1.mha.smolgen.gen_from.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192,
+   256
+  ],
+  "data_offsets": [
+   69684224,
+   78072832
+  ]
+ },
+ "encoder_layers.encoder_layer_1.mha.smolgen.gen_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   78072832,
+   78105600
+  ]
+ },
+ "encoder_layers.encoder_layer_1.mha.smolgen.gen_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   78105600,
+   78138368
+  ]
+ },
+ "encoder_layers.encoder_layer_1.mha.smolgen.hidden_dense.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   78138368,
+   78139392
+  ]
+ },
+ "encoder_layers.encoder_layer_1.mha.smolgen.hidden_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   256,
+   2048
+  ],
+  "data_offsets": [
+   78139392,
+   80236544
+  ]
+ },
+ "encoder_layers.encoder_layer_1.mha.smolgen.hidden_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   80236544,
+   80237568
+  ]
+ },
+ "encoder_layers.encoder_layer_1.mha.smolgen.hidden_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   80237568,
+   80238592
+  ]
+ },
+ "encoder_layers.encoder_layer_1.mha.smolgen.smol_weight_gen_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   4096,
+   256
+  ],
+  "data_offsets": [
+   80238592,
+   84432896
+  ]
+ },
+ "encoder_layers.encoder_layer_1.mha.v_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   84432896,
+   84436992
+  ]
+ },
+ "encoder_layers.encoder_layer_1.mha.v_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   84436992,
+   88631296
+  ]
+ },
+ "encoder_layers.encoder_layer_10.ffn.dense1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1536
+  ],
+  "data_offsets": [
+   88631296,
+   88637440
+  ]
+ },
+ "encoder_layers.encoder_layer_10.ffn.dense1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1536,
+   1024
+  ],
+  "data_offsets": [
+   88637440,
+   94928896
+  ]
+ },
+ "encoder_layers.encoder_layer_10.ffn.dense2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   94928896,
+   94932992
+  ]
+ },
+ "encoder_layers.encoder_layer_10.ffn.dense2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1536
+  ],
+  "data_offsets": [
+   94932992,
+   101224448
+  ]
+ },
+ "encoder_layers.encoder_layer_10.ln1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   101224448,
+   101228544
+  ]
+ },
+ "encoder_layers.encoder_layer_10.ln1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   101228544,
+   101232640
+  ]
+ },
+ "encoder_layers.encoder_layer_10.ln2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   101232640,
+   101236736
+  ]
+ },
+ "encoder_layers.encoder_layer_10.ln2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   101236736,
+   101240832
+  ]
+ },
+ "encoder_layers.encoder_layer_10.mha.k_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   101240832,
+   101244928
+  ]
+ },
+ "encoder_layers.encoder_layer_10.mha.k_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   101244928,
+   105439232
+  ]
+ },
+ "encoder_layers.encoder_layer_10.mha.out_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   105439232,
+   105443328
+  ]
+ },
+ "encoder_layers.encoder_layer_10.mha.out_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   105443328,
+   109637632
+  ]
+ },
+ "encoder_layers.encoder_layer_10.mha.q_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   109637632,
+   109641728
+  ]
+ },
+ "encoder_layers.encoder_layer_10.mha.q_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   109641728,
+   113836032
+  ]
+ },
+ "encoder_layers.encoder_layer_10.mha.smolgen.compress.weight": {
+  "dtype": "F32",
+  "shape": [
+   32,
+   1024
+  ],
+  "data_offsets": [
+   113836032,
+   113967104
+  ]
+ },
+ "encoder_layers.encoder_layer_10.mha.smolgen.gen_from.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   113967104,
+   113999872
+  ]
+ },
+ "encoder_layers.encoder_layer_10.mha.smolgen.gen_from.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192,
+   256
+  ],
+  "data_offsets": [
+   113999872,
+   122388480
+  ]
+ },
+ "encoder_layers.encoder_layer_10.mha.smolgen.gen_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   122388480,
+   122421248
+  ]
+ },
+ "encoder_layers.encoder_layer_10.mha.smolgen.gen_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   122421248,
+   122454016
+  ]
+ },
+ "encoder_layers.encoder_layer_10.mha.smolgen.hidden_dense.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   122454016,
+   122455040
+  ]
+ },
+ "encoder_layers.encoder_layer_10.mha.smolgen.hidden_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   256,
+   2048
+  ],
+  "data_offsets": [
+   122455040,
+   124552192
+  ]
+ },
+ "encoder_layers.encoder_layer_10.mha.smolgen.hidden_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   124552192,
+   124553216
+  ]
+ },
+ "encoder_layers.encoder_layer_10.mha.smolgen.hidden_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   124553216,
+   124554240
+  ]
+ },
+ "encoder_layers.encoder_layer_10.mha.smolgen.smol_weight_gen_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   4096,
+   256
+  ],
+  "data_offsets": [
+   124554240,
+   128748544
+  ]
+ },
+ "encoder_layers.encoder_layer_10.mha.v_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   128748544,
+   128752640
+  ]
+ },
+ "encoder_layers.encoder_layer_10.mha.v_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   128752640,
+   132946944
+  ]
+ },
+ "encoder_layers.encoder_layer_11.ffn.dense1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1536
+  ],
+  "data_offsets": [
+   132946944,
+   132953088
+  ]
+ },
+ "encoder_layers.encoder_layer_11.ffn.dense1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1536,
+   1024
+  ],
+  "data_offsets": [
+   132953088,
+   139244544
+  ]
+ },
+ "encoder_layers.encoder_layer_11.ffn.dense2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   139244544,
+   139248640
+  ]
+ },
+ "encoder_layers.encoder_layer_11.ffn.dense2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1536
+  ],
+  "data_offsets": [
+   139248640,
+   145540096
+  ]
+ },
+ "encoder_layers.encoder_layer_11.ln1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   145540096,
+   145544192
+  ]
+ },
+ "encoder_layers.encoder_layer_11.ln1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   145544192,
+   145548288
+  ]
+ },
+ "encoder_layers.encoder_layer_11.ln2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   145548288,
+   145552384
+  ]
+ },
+ "encoder_layers.encoder_layer_11.ln2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   145552384,
+   145556480
+  ]
+ },
+ "encoder_layers.encoder_layer_11.mha.k_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   145556480,
+   145560576
+  ]
+ },
+ "encoder_layers.encoder_layer_11.mha.k_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   145560576,
+   149754880
+  ]
+ },
+ "encoder_layers.encoder_layer_11.mha.out_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   149754880,
+   149758976
+  ]
+ },
+ "encoder_layers.encoder_layer_11.mha.out_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   149758976,
+   153953280
+  ]
+ },
+ "encoder_layers.encoder_layer_11.mha.q_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   153953280,
+   153957376
+  ]
+ },
+ "encoder_layers.encoder_layer_11.mha.q_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   153957376,
+   158151680
+  ]
+ },
+ "encoder_layers.encoder_layer_11.mha.smolgen.compress.weight": {
+  "dtype": "F32",
+  "shape": [
+   32,
+   1024
+  ],
+  "data_offsets": [
+   158151680,
+   158282752
+  ]
+ },
+ "encoder_layers.encoder_layer_11.mha.smolgen.gen_from.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   158282752,
+   158315520
+  ]
+ },
+ "encoder_layers.encoder_layer_11.mha.smolgen.gen_from.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192,
+   256
+  ],
+  "data_offsets": [
+   158315520,
+   166704128
+  ]
+ },
+ "encoder_layers.encoder_layer_11.mha.smolgen.gen_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   166704128,
+   166736896
+  ]
+ },
+ "encoder_layers.encoder_layer_11.mha.smolgen.gen_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   166736896,
+   166769664
+  ]
+ },
+ "encoder_layers.encoder_layer_11.mha.smolgen.hidden_dense.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   166769664,
+   166770688
+  ]
+ },
+ "encoder_layers.encoder_layer_11.mha.smolgen.hidden_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   256,
+   2048
+  ],
+  "data_offsets": [
+   166770688,
+   168867840
+  ]
+ },
+ "encoder_layers.encoder_layer_11.mha.smolgen.hidden_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   168867840,
+   168868864
+  ]
+ },
+ "encoder_layers.encoder_layer_11.mha.smolgen.hidden_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   168868864,
+   168869888
+  ]
+ },
+ "encoder_layers.encoder_layer_11.mha.smolgen.smol_weight_gen_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   4096,
+   256
+  ],
+  "data_offsets": [
+   168869888,
+   173064192
+  ]
+ },
+ "encoder_layers.encoder_layer_11.mha.v_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   173064192,
+   173068288
+  ]
+ },
+ "encoder_layers.encoder_layer_11.mha.v_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   173068288,
+   177262592
+  ]
+ },
+ "encoder_layers.encoder_layer_12.ffn.dense1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1536
+  ],
+  "data_offsets": [
+   177262592,
+   177268736
+  ]
+ },
+ "encoder_layers.encoder_layer_12.ffn.dense1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1536,
+   1024
+  ],
+  "data_offsets": [
+   177268736,
+   183560192
+  ]
+ },
+ "encoder_layers.encoder_layer_12.ffn.dense2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   183560192,
+   183564288
+  ]
+ },
+ "encoder_layers.encoder_layer_12.ffn.dense2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1536
+  ],
+  "data_offsets": [
+   183564288,
+   189855744
+  ]
+ },
+ "encoder_layers.encoder_layer_12.ln1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   189855744,
+   189859840
+  ]
+ },
+ "encoder_layers.encoder_layer_12.ln1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   189859840,
+   189863936
+  ]
+ },
+ "encoder_layers.encoder_layer_12.ln2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   189863936,
+   189868032
+  ]
+ },
+ "encoder_layers.encoder_layer_12.ln2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   189868032,
+   189872128
+  ]
+ },
+ "encoder_layers.encoder_layer_12.mha.k_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   189872128,
+   189876224
+  ]
+ },
+ "encoder_layers.encoder_layer_12.mha.k_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   189876224,
+   194070528
+  ]
+ },
+ "encoder_layers.encoder_layer_12.mha.out_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   194070528,
+   194074624
+  ]
+ },
+ "encoder_layers.encoder_layer_12.mha.out_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   194074624,
+   198268928
+  ]
+ },
+ "encoder_layers.encoder_layer_12.mha.q_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   198268928,
+   198273024
+  ]
+ },
+ "encoder_layers.encoder_layer_12.mha.q_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   198273024,
+   202467328
+  ]
+ },
+ "encoder_layers.encoder_layer_12.mha.smolgen.compress.weight": {
+  "dtype": "F32",
+  "shape": [
+   32,
+   1024
+  ],
+  "data_offsets": [
+   202467328,
+   202598400
+  ]
+ },
+ "encoder_layers.encoder_layer_12.mha.smolgen.gen_from.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   202598400,
+   202631168
+  ]
+ },
+ "encoder_layers.encoder_layer_12.mha.smolgen.gen_from.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192,
+   256
+  ],
+  "data_offsets": [
+   202631168,
+   211019776
+  ]
+ },
+ "encoder_layers.encoder_layer_12.mha.smolgen.gen_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   211019776,
+   211052544
+  ]
+ },
+ "encoder_layers.encoder_layer_12.mha.smolgen.gen_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   211052544,
+   211085312
+  ]
+ },
+ "encoder_layers.encoder_layer_12.mha.smolgen.hidden_dense.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   211085312,
+   211086336
+  ]
+ },
+ "encoder_layers.encoder_layer_12.mha.smolgen.hidden_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   256,
+   2048
+  ],
+  "data_offsets": [
+   211086336,
+   213183488
+  ]
+ },
+ "encoder_layers.encoder_layer_12.mha.smolgen.hidden_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   213183488,
+   213184512
+  ]
+ },
+ "encoder_layers.encoder_layer_12.mha.smolgen.hidden_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   213184512,
+   213185536
+  ]
+ },
+ "encoder_layers.encoder_layer_12.mha.smolgen.smol_weight_gen_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   4096,
+   256
+  ],
+  "data_offsets": [
+   213185536,
+   217379840
+  ]
+ },
+ "encoder_layers.encoder_layer_12.mha.v_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   217379840,
+   217383936
+  ]
+ },
+ "encoder_layers.encoder_layer_12.mha.v_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   217383936,
+   221578240
+  ]
+ },
+ "encoder_layers.encoder_layer_13.ffn.dense1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1536
+  ],
+  "data_offsets": [
+   221578240,
+   221584384
+  ]
+ },
+ "encoder_layers.encoder_layer_13.ffn.dense1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1536,
+   1024
+  ],
+  "data_offsets": [
+   221584384,
+   227875840
+  ]
+ },
+ "encoder_layers.encoder_layer_13.ffn.dense2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   227875840,
+   227879936
+  ]
+ },
+ "encoder_layers.encoder_layer_13.ffn.dense2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1536
+  ],
+  "data_offsets": [
+   227879936,
+   234171392
+  ]
+ },
+ "encoder_layers.encoder_layer_13.ln1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   234171392,
+   234175488
+  ]
+ },
+ "encoder_layers.encoder_layer_13.ln1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   234175488,
+   234179584
+  ]
+ },
+ "encoder_layers.encoder_layer_13.ln2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   234179584,
+   234183680
+  ]
+ },
+ "encoder_layers.encoder_layer_13.ln2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   234183680,
+   234187776
+  ]
+ },
+ "encoder_layers.encoder_layer_13.mha.k_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   234187776,
+   234191872
+  ]
+ },
+ "encoder_layers.encoder_layer_13.mha.k_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   234191872,
+   238386176
+  ]
+ },
+ "encoder_layers.encoder_layer_13.mha.out_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   238386176,
+   238390272
+  ]
+ },
+ "encoder_layers.encoder_layer_13.mha.out_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   238390272,
+   242584576
+  ]
+ },
+ "encoder_layers.encoder_layer_13.mha.q_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   242584576,
+   242588672
+  ]
+ },
+ "encoder_layers.encoder_layer_13.mha.q_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   242588672,
+   246782976
+  ]
+ },
+ "encoder_layers.encoder_layer_13.mha.smolgen.compress.weight": {
+  "dtype": "F32",
+  "shape": [
+   32,
+   1024
+  ],
+  "data_offsets": [
+   246782976,
+   246914048
+  ]
+ },
+ "encoder_layers.encoder_layer_13.mha.smolgen.gen_from.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   246914048,
+   246946816
+  ]
+ },
+ "encoder_layers.encoder_layer_13.mha.smolgen.gen_from.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192,
+   256
+  ],
+  "data_offsets": [
+   246946816,
+   255335424
+  ]
+ },
+ "encoder_layers.encoder_layer_13.mha.smolgen.gen_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   255335424,
+   255368192
+  ]
+ },
+ "encoder_layers.encoder_layer_13.mha.smolgen.gen_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   255368192,
+   255400960
+  ]
+ },
+ "encoder_layers.encoder_layer_13.mha.smolgen.hidden_dense.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   255400960,
+   255401984
+  ]
+ },
+ "encoder_layers.encoder_layer_13.mha.smolgen.hidden_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   256,
+   2048
+  ],
+  "data_offsets": [
+   255401984,
+   257499136
+  ]
+ },
+ "encoder_layers.encoder_layer_13.mha.smolgen.hidden_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   257499136,
+   257500160
+  ]
+ },
+ "encoder_layers.encoder_layer_13.mha.smolgen.hidden_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   257500160,
+   257501184
+  ]
+ },
+ "encoder_layers.encoder_layer_13.mha.smolgen.smol_weight_gen_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   4096,
+   256
+  ],
+  "data_offsets": [
+   257501184,
+   261695488
+  ]
+ },
+ "encoder_layers.encoder_layer_13.mha.v_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   261695488,
+   261699584
+  ]
+ },
+ "encoder_layers.encoder_layer_13.mha.v_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   261699584,
+   265893888
+  ]
+ },
+ "encoder_layers.encoder_layer_14.ffn.dense1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1536
+  ],
+  "data_offsets": [
+   265893888,
+   265900032
+  ]
+ },
+ "encoder_layers.encoder_layer_14.ffn.dense1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1536,
+   1024
+  ],
+  "data_offsets": [
+   265900032,
+   272191488
+  ]
+ },
+ "encoder_layers.encoder_layer_14.ffn.dense2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   272191488,
+   272195584
+  ]
+ },
+ "encoder_layers.encoder_layer_14.ffn.dense2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1536
+  ],
+  "data_offsets": [
+   272195584,
+   278487040
+  ]
+ },
+ "encoder_layers.encoder_layer_14.ln1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   278487040,
+   278491136
+  ]
+ },
+ "encoder_layers.encoder_layer_14.ln1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   278491136,
+   278495232
+  ]
+ },
+ "encoder_layers.encoder_layer_14.ln2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   278495232,
+   278499328
+  ]
+ },
+ "encoder_layers.encoder_layer_14.ln2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   278499328,
+   278503424
+  ]
+ },
+ "encoder_layers.encoder_layer_14.mha.k_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   278503424,
+   278507520
+  ]
+ },
+ "encoder_layers.encoder_layer_14.mha.k_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   278507520,
+   282701824
+  ]
+ },
+ "encoder_layers.encoder_layer_14.mha.out_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   282701824,
+   282705920
+  ]
+ },
+ "encoder_layers.encoder_layer_14.mha.out_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   282705920,
+   286900224
+  ]
+ },
+ "encoder_layers.encoder_layer_14.mha.q_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   286900224,
+   286904320
+  ]
+ },
+ "encoder_layers.encoder_layer_14.mha.q_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   286904320,
+   291098624
+  ]
+ },
+ "encoder_layers.encoder_layer_14.mha.smolgen.compress.weight": {
+  "dtype": "F32",
+  "shape": [
+   32,
+   1024
+  ],
+  "data_offsets": [
+   291098624,
+   291229696
+  ]
+ },
+ "encoder_layers.encoder_layer_14.mha.smolgen.gen_from.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   291229696,
+   291262464
+  ]
+ },
+ "encoder_layers.encoder_layer_14.mha.smolgen.gen_from.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192,
+   256
+  ],
+  "data_offsets": [
+   291262464,
+   299651072
+  ]
+ },
+ "encoder_layers.encoder_layer_14.mha.smolgen.gen_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   299651072,
+   299683840
+  ]
+ },
+ "encoder_layers.encoder_layer_14.mha.smolgen.gen_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   299683840,
+   299716608
+  ]
+ },
+ "encoder_layers.encoder_layer_14.mha.smolgen.hidden_dense.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   299716608,
+   299717632
+  ]
+ },
+ "encoder_layers.encoder_layer_14.mha.smolgen.hidden_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   256,
+   2048
+  ],
+  "data_offsets": [
+   299717632,
+   301814784
+  ]
+ },
+ "encoder_layers.encoder_layer_14.mha.smolgen.hidden_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   301814784,
+   301815808
+  ]
+ },
+ "encoder_layers.encoder_layer_14.mha.smolgen.hidden_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   301815808,
+   301816832
+  ]
+ },
+ "encoder_layers.encoder_layer_14.mha.smolgen.smol_weight_gen_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   4096,
+   256
+  ],
+  "data_offsets": [
+   301816832,
+   306011136
+  ]
+ },
+ "encoder_layers.encoder_layer_14.mha.v_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   306011136,
+   306015232
+  ]
+ },
+ "encoder_layers.encoder_layer_14.mha.v_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   306015232,
+   310209536
+  ]
+ },
+ "encoder_layers.encoder_layer_2.ffn.dense1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1536
+  ],
+  "data_offsets": [
+   310209536,
+   310215680
+  ]
+ },
+ "encoder_layers.encoder_layer_2.ffn.dense1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1536,
+   1024
+  ],
+  "data_offsets": [
+   310215680,
+   316507136
+  ]
+ },
+ "encoder_layers.encoder_layer_2.ffn.dense2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   316507136,
+   316511232
+  ]
+ },
+ "encoder_layers.encoder_layer_2.ffn.dense2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1536
+  ],
+  "data_offsets": [
+   316511232,
+   322802688
+  ]
+ },
+ "encoder_layers.encoder_layer_2.ln1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   322802688,
+   322806784
+  ]
+ },
+ "encoder_layers.encoder_layer_2.ln1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   322806784,
+   322810880
+  ]
+ },
+ "encoder_layers.encoder_layer_2.ln2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   322810880,
+   322814976
+  ]
+ },
+ "encoder_layers.encoder_layer_2.ln2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   322814976,
+   322819072
+  ]
+ },
+ "encoder_layers.encoder_layer_2.mha.k_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   322819072,
+   322823168
+  ]
+ },
+ "encoder_layers.encoder_layer_2.mha.k_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   322823168,
+   327017472
+  ]
+ },
+ "encoder_layers.encoder_layer_2.mha.out_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   327017472,
+   327021568
+  ]
+ },
+ "encoder_layers.encoder_layer_2.mha.out_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   327021568,
+   331215872
+  ]
+ },
+ "encoder_layers.encoder_layer_2.mha.q_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   331215872,
+   331219968
+  ]
+ },
+ "encoder_layers.encoder_layer_2.mha.q_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   331219968,
+   335414272
+  ]
+ },
+ "encoder_layers.encoder_layer_2.mha.smolgen.compress.weight": {
+  "dtype": "F32",
+  "shape": [
+   32,
+   1024
+  ],
+  "data_offsets": [
+   335414272,
+   335545344
+  ]
+ },
+ "encoder_layers.encoder_layer_2.mha.smolgen.gen_from.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   335545344,
+   335578112
+  ]
+ },
+ "encoder_layers.encoder_layer_2.mha.smolgen.gen_from.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192,
+   256
+  ],
+  "data_offsets": [
+   335578112,
+   343966720
+  ]
+ },
+ "encoder_layers.encoder_layer_2.mha.smolgen.gen_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   343966720,
+   343999488
+  ]
+ },
+ "encoder_layers.encoder_layer_2.mha.smolgen.gen_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   343999488,
+   344032256
+  ]
+ },
+ "encoder_layers.encoder_layer_2.mha.smolgen.hidden_dense.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   344032256,
+   344033280
+  ]
+ },
+ "encoder_layers.encoder_layer_2.mha.smolgen.hidden_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   256,
+   2048
+  ],
+  "data_offsets": [
+   344033280,
+   346130432
+  ]
+ },
+ "encoder_layers.encoder_layer_2.mha.smolgen.hidden_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   346130432,
+   346131456
+  ]
+ },
+ "encoder_layers.encoder_layer_2.mha.smolgen.hidden_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   346131456,
+   346132480
+  ]
+ },
+ "encoder_layers.encoder_layer_2.mha.smolgen.smol_weight_gen_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   4096,
+   256
+  ],
+  "data_offsets": [
+   346132480,
+   350326784
+  ]
+ },
+ "encoder_layers.encoder_layer_2.mha.v_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   350326784,
+   350330880
+  ]
+ },
+ "encoder_layers.encoder_layer_2.mha.v_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   350330880,
+   354525184
+  ]
+ },
+ "encoder_layers.encoder_layer_3.ffn.dense1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1536
+  ],
+  "data_offsets": [
+   354525184,
+   354531328
+  ]
+ },
+ "encoder_layers.encoder_layer_3.ffn.dense1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1536,
+   1024
+  ],
+  "data_offsets": [
+   354531328,
+   360822784
+  ]
+ },
+ "encoder_layers.encoder_layer_3.ffn.dense2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   360822784,
+   360826880
+  ]
+ },
+ "encoder_layers.encoder_layer_3.ffn.dense2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1536
+  ],
+  "data_offsets": [
+   360826880,
+   367118336
+  ]
+ },
+ "encoder_layers.encoder_layer_3.ln1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   367118336,
+   367122432
+  ]
+ },
+ "encoder_layers.encoder_layer_3.ln1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   367122432,
+   367126528
+  ]
+ },
+ "encoder_layers.encoder_layer_3.ln2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   367126528,
+   367130624
+  ]
+ },
+ "encoder_layers.encoder_layer_3.ln2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   367130624,
+   367134720
+  ]
+ },
+ "encoder_layers.encoder_layer_3.mha.k_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   367134720,
+   367138816
+  ]
+ },
+ "encoder_layers.encoder_layer_3.mha.k_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   367138816,
+   371333120
+  ]
+ },
+ "encoder_layers.encoder_layer_3.mha.out_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   371333120,
+   371337216
+  ]
+ },
+ "encoder_layers.encoder_layer_3.mha.out_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   371337216,
+   375531520
+  ]
+ },
+ "encoder_layers.encoder_layer_3.mha.q_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   375531520,
+   375535616
+  ]
+ },
+ "encoder_layers.encoder_layer_3.mha.q_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   375535616,
+   379729920
+  ]
+ },
+ "encoder_layers.encoder_layer_3.mha.smolgen.compress.weight": {
+  "dtype": "F32",
+  "shape": [
+   32,
+   1024
+  ],
+  "data_offsets": [
+   379729920,
+   379860992
+  ]
+ },
+ "encoder_layers.encoder_layer_3.mha.smolgen.gen_from.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   379860992,
+   379893760
+  ]
+ },
+ "encoder_layers.encoder_layer_3.mha.smolgen.gen_from.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192,
+   256
+  ],
+  "data_offsets": [
+   379893760,
+   388282368
+  ]
+ },
+ "encoder_layers.encoder_layer_3.mha.smolgen.gen_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   388282368,
+   388315136
+  ]
+ },
+ "encoder_layers.encoder_layer_3.mha.smolgen.gen_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   388315136,
+   388347904
+  ]
+ },
+ "encoder_layers.encoder_layer_3.mha.smolgen.hidden_dense.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   388347904,
+   388348928
+  ]
+ },
+ "encoder_layers.encoder_layer_3.mha.smolgen.hidden_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   256,
+   2048
+  ],
+  "data_offsets": [
+   388348928,
+   390446080
+  ]
+ },
+ "encoder_layers.encoder_layer_3.mha.smolgen.hidden_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   390446080,
+   390447104
+  ]
+ },
+ "encoder_layers.encoder_layer_3.mha.smolgen.hidden_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   390447104,
+   390448128
+  ]
+ },
+ "encoder_layers.encoder_layer_3.mha.smolgen.smol_weight_gen_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   4096,
+   256
+  ],
+  "data_offsets": [
+   390448128,
+   394642432
+  ]
+ },
+ "encoder_layers.encoder_layer_3.mha.v_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   394642432,
+   394646528
+  ]
+ },
+ "encoder_layers.encoder_layer_3.mha.v_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   394646528,
+   398840832
+  ]
+ },
+ "encoder_layers.encoder_layer_4.ffn.dense1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1536
+  ],
+  "data_offsets": [
+   398840832,
+   398846976
+  ]
+ },
+ "encoder_layers.encoder_layer_4.ffn.dense1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1536,
+   1024
+  ],
+  "data_offsets": [
+   398846976,
+   405138432
+  ]
+ },
+ "encoder_layers.encoder_layer_4.ffn.dense2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   405138432,
+   405142528
+  ]
+ },
+ "encoder_layers.encoder_layer_4.ffn.dense2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1536
+  ],
+  "data_offsets": [
+   405142528,
+   411433984
+  ]
+ },
+ "encoder_layers.encoder_layer_4.ln1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   411433984,
+   411438080
+  ]
+ },
+ "encoder_layers.encoder_layer_4.ln1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   411438080,
+   411442176
+  ]
+ },
+ "encoder_layers.encoder_layer_4.ln2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   411442176,
+   411446272
+  ]
+ },
+ "encoder_layers.encoder_layer_4.ln2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   411446272,
+   411450368
+  ]
+ },
+ "encoder_layers.encoder_layer_4.mha.k_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   411450368,
+   411454464
+  ]
+ },
+ "encoder_layers.encoder_layer_4.mha.k_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   411454464,
+   415648768
+  ]
+ },
+ "encoder_layers.encoder_layer_4.mha.out_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   415648768,
+   415652864
+  ]
+ },
+ "encoder_layers.encoder_layer_4.mha.out_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   415652864,
+   419847168
+  ]
+ },
+ "encoder_layers.encoder_layer_4.mha.q_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   419847168,
+   419851264
+  ]
+ },
+ "encoder_layers.encoder_layer_4.mha.q_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   419851264,
+   424045568
+  ]
+ },
+ "encoder_layers.encoder_layer_4.mha.smolgen.compress.weight": {
+  "dtype": "F32",
+  "shape": [
+   32,
+   1024
+  ],
+  "data_offsets": [
+   424045568,
+   424176640
+  ]
+ },
+ "encoder_layers.encoder_layer_4.mha.smolgen.gen_from.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   424176640,
+   424209408
+  ]
+ },
+ "encoder_layers.encoder_layer_4.mha.smolgen.gen_from.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192,
+   256
+  ],
+  "data_offsets": [
+   424209408,
+   432598016
+  ]
+ },
+ "encoder_layers.encoder_layer_4.mha.smolgen.gen_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   432598016,
+   432630784
+  ]
+ },
+ "encoder_layers.encoder_layer_4.mha.smolgen.gen_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   432630784,
+   432663552
+  ]
+ },
+ "encoder_layers.encoder_layer_4.mha.smolgen.hidden_dense.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   432663552,
+   432664576
+  ]
+ },
+ "encoder_layers.encoder_layer_4.mha.smolgen.hidden_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   256,
+   2048
+  ],
+  "data_offsets": [
+   432664576,
+   434761728
+  ]
+ },
+ "encoder_layers.encoder_layer_4.mha.smolgen.hidden_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   434761728,
+   434762752
+  ]
+ },
+ "encoder_layers.encoder_layer_4.mha.smolgen.hidden_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   434762752,
+   434763776
+  ]
+ },
+ "encoder_layers.encoder_layer_4.mha.smolgen.smol_weight_gen_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   4096,
+   256
+  ],
+  "data_offsets": [
+   434763776,
+   438958080
+  ]
+ },
+ "encoder_layers.encoder_layer_4.mha.v_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   438958080,
+   438962176
+  ]
+ },
+ "encoder_layers.encoder_layer_4.mha.v_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   438962176,
+   443156480
+  ]
+ },
+ "encoder_layers.encoder_layer_5.ffn.dense1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1536
+  ],
+  "data_offsets": [
+   443156480,
+   443162624
+  ]
+ },
+ "encoder_layers.encoder_layer_5.ffn.dense1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1536,
+   1024
+  ],
+  "data_offsets": [
+   443162624,
+   449454080
+  ]
+ },
+ "encoder_layers.encoder_layer_5.ffn.dense2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   449454080,
+   449458176
+  ]
+ },
+ "encoder_layers.encoder_layer_5.ffn.dense2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1536
+  ],
+  "data_offsets": [
+   449458176,
+   455749632
+  ]
+ },
+ "encoder_layers.encoder_layer_5.ln1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   455749632,
+   455753728
+  ]
+ },
+ "encoder_layers.encoder_layer_5.ln1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   455753728,
+   455757824
+  ]
+ },
+ "encoder_layers.encoder_layer_5.ln2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   455757824,
+   455761920
+  ]
+ },
+ "encoder_layers.encoder_layer_5.ln2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   455761920,
+   455766016
+  ]
+ },
+ "encoder_layers.encoder_layer_5.mha.k_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   455766016,
+   455770112
+  ]
+ },
+ "encoder_layers.encoder_layer_5.mha.k_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   455770112,
+   459964416
+  ]
+ },
+ "encoder_layers.encoder_layer_5.mha.out_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   459964416,
+   459968512
+  ]
+ },
+ "encoder_layers.encoder_layer_5.mha.out_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   459968512,
+   464162816
+  ]
+ },
+ "encoder_layers.encoder_layer_5.mha.q_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   464162816,
+   464166912
+  ]
+ },
+ "encoder_layers.encoder_layer_5.mha.q_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   464166912,
+   468361216
+  ]
+ },
+ "encoder_layers.encoder_layer_5.mha.smolgen.compress.weight": {
+  "dtype": "F32",
+  "shape": [
+   32,
+   1024
+  ],
+  "data_offsets": [
+   468361216,
+   468492288
+  ]
+ },
+ "encoder_layers.encoder_layer_5.mha.smolgen.gen_from.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   468492288,
+   468525056
+  ]
+ },
+ "encoder_layers.encoder_layer_5.mha.smolgen.gen_from.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192,
+   256
+  ],
+  "data_offsets": [
+   468525056,
+   476913664
+  ]
+ },
+ "encoder_layers.encoder_layer_5.mha.smolgen.gen_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   476913664,
+   476946432
+  ]
+ },
+ "encoder_layers.encoder_layer_5.mha.smolgen.gen_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   476946432,
+   476979200
+  ]
+ },
+ "encoder_layers.encoder_layer_5.mha.smolgen.hidden_dense.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   476979200,
+   476980224
+  ]
+ },
+ "encoder_layers.encoder_layer_5.mha.smolgen.hidden_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   256,
+   2048
+  ],
+  "data_offsets": [
+   476980224,
+   479077376
+  ]
+ },
+ "encoder_layers.encoder_layer_5.mha.smolgen.hidden_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   479077376,
+   479078400
+  ]
+ },
+ "encoder_layers.encoder_layer_5.mha.smolgen.hidden_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   479078400,
+   479079424
+  ]
+ },
+ "encoder_layers.encoder_layer_5.mha.smolgen.smol_weight_gen_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   4096,
+   256
+  ],
+  "data_offsets": [
+   479079424,
+   483273728
+  ]
+ },
+ "encoder_layers.encoder_layer_5.mha.v_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   483273728,
+   483277824
+  ]
+ },
+ "encoder_layers.encoder_layer_5.mha.v_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   483277824,
+   487472128
+  ]
+ },
+ "encoder_layers.encoder_layer_6.ffn.dense1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1536
+  ],
+  "data_offsets": [
+   487472128,
+   487478272
+  ]
+ },
+ "encoder_layers.encoder_layer_6.ffn.dense1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1536,
+   1024
+  ],
+  "data_offsets": [
+   487478272,
+   493769728
+  ]
+ },
+ "encoder_layers.encoder_layer_6.ffn.dense2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   493769728,
+   493773824
+  ]
+ },
+ "encoder_layers.encoder_layer_6.ffn.dense2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1536
+  ],
+  "data_offsets": [
+   493773824,
+   500065280
+  ]
+ },
+ "encoder_layers.encoder_layer_6.ln1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   500065280,
+   500069376
+  ]
+ },
+ "encoder_layers.encoder_layer_6.ln1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   500069376,
+   500073472
+  ]
+ },
+ "encoder_layers.encoder_layer_6.ln2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   500073472,
+   500077568
+  ]
+ },
+ "encoder_layers.encoder_layer_6.ln2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   500077568,
+   500081664
+  ]
+ },
+ "encoder_layers.encoder_layer_6.mha.k_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   500081664,
+   500085760
+  ]
+ },
+ "encoder_layers.encoder_layer_6.mha.k_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   500085760,
+   504280064
+  ]
+ },
+ "encoder_layers.encoder_layer_6.mha.out_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   504280064,
+   504284160
+  ]
+ },
+ "encoder_layers.encoder_layer_6.mha.out_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   504284160,
+   508478464
+  ]
+ },
+ "encoder_layers.encoder_layer_6.mha.q_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   508478464,
+   508482560
+  ]
+ },
+ "encoder_layers.encoder_layer_6.mha.q_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   508482560,
+   512676864
+  ]
+ },
+ "encoder_layers.encoder_layer_6.mha.smolgen.compress.weight": {
+  "dtype": "F32",
+  "shape": [
+   32,
+   1024
+  ],
+  "data_offsets": [
+   512676864,
+   512807936
+  ]
+ },
+ "encoder_layers.encoder_layer_6.mha.smolgen.gen_from.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   512807936,
+   512840704
+  ]
+ },
+ "encoder_layers.encoder_layer_6.mha.smolgen.gen_from.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192,
+   256
+  ],
+  "data_offsets": [
+   512840704,
+   521229312
+  ]
+ },
+ "encoder_layers.encoder_layer_6.mha.smolgen.gen_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   521229312,
+   521262080
+  ]
+ },
+ "encoder_layers.encoder_layer_6.mha.smolgen.gen_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   521262080,
+   521294848
+  ]
+ },
+ "encoder_layers.encoder_layer_6.mha.smolgen.hidden_dense.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   521294848,
+   521295872
+  ]
+ },
+ "encoder_layers.encoder_layer_6.mha.smolgen.hidden_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   256,
+   2048
+  ],
+  "data_offsets": [
+   521295872,
+   523393024
+  ]
+ },
+ "encoder_layers.encoder_layer_6.mha.smolgen.hidden_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   523393024,
+   523394048
+  ]
+ },
+ "encoder_layers.encoder_layer_6.mha.smolgen.hidden_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   523394048,
+   523395072
+  ]
+ },
+ "encoder_layers.encoder_layer_6.mha.smolgen.smol_weight_gen_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   4096,
+   256
+  ],
+  "data_offsets": [
+   523395072,
+   527589376
+  ]
+ },
+ "encoder_layers.encoder_layer_6.mha.v_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   527589376,
+   527593472
+  ]
+ },
+ "encoder_layers.encoder_layer_6.mha.v_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   527593472,
+   531787776
+  ]
+ },
+ "encoder_layers.encoder_layer_7.ffn.dense1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1536
+  ],
+  "data_offsets": [
+   531787776,
+   531793920
+  ]
+ },
+ "encoder_layers.encoder_layer_7.ffn.dense1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1536,
+   1024
+  ],
+  "data_offsets": [
+   531793920,
+   538085376
+  ]
+ },
+ "encoder_layers.encoder_layer_7.ffn.dense2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   538085376,
+   538089472
+  ]
+ },
+ "encoder_layers.encoder_layer_7.ffn.dense2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1536
+  ],
+  "data_offsets": [
+   538089472,
+   544380928
+  ]
+ },
+ "encoder_layers.encoder_layer_7.ln1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   544380928,
+   544385024
+  ]
+ },
+ "encoder_layers.encoder_layer_7.ln1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   544385024,
+   544389120
+  ]
+ },
+ "encoder_layers.encoder_layer_7.ln2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   544389120,
+   544393216
+  ]
+ },
+ "encoder_layers.encoder_layer_7.ln2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   544393216,
+   544397312
+  ]
+ },
+ "encoder_layers.encoder_layer_7.mha.k_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   544397312,
+   544401408
+  ]
+ },
+ "encoder_layers.encoder_layer_7.mha.k_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   544401408,
+   548595712
+  ]
+ },
+ "encoder_layers.encoder_layer_7.mha.out_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   548595712,
+   548599808
+  ]
+ },
+ "encoder_layers.encoder_layer_7.mha.out_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   548599808,
+   552794112
+  ]
+ },
+ "encoder_layers.encoder_layer_7.mha.q_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   552794112,
+   552798208
+  ]
+ },
+ "encoder_layers.encoder_layer_7.mha.q_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   552798208,
+   556992512
+  ]
+ },
+ "encoder_layers.encoder_layer_7.mha.smolgen.compress.weight": {
+  "dtype": "F32",
+  "shape": [
+   32,
+   1024
+  ],
+  "data_offsets": [
+   556992512,
+   557123584
+  ]
+ },
+ "encoder_layers.encoder_layer_7.mha.smolgen.gen_from.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   557123584,
+   557156352
+  ]
+ },
+ "encoder_layers.encoder_layer_7.mha.smolgen.gen_from.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192,
+   256
+  ],
+  "data_offsets": [
+   557156352,
+   565544960
+  ]
+ },
+ "encoder_layers.encoder_layer_7.mha.smolgen.gen_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   565544960,
+   565577728
+  ]
+ },
+ "encoder_layers.encoder_layer_7.mha.smolgen.gen_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   565577728,
+   565610496
+  ]
+ },
+ "encoder_layers.encoder_layer_7.mha.smolgen.hidden_dense.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   565610496,
+   565611520
+  ]
+ },
+ "encoder_layers.encoder_layer_7.mha.smolgen.hidden_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   256,
+   2048
+  ],
+  "data_offsets": [
+   565611520,
+   567708672
+  ]
+ },
+ "encoder_layers.encoder_layer_7.mha.smolgen.hidden_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   567708672,
+   567709696
+  ]
+ },
+ "encoder_layers.encoder_layer_7.mha.smolgen.hidden_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   567709696,
+   567710720
+  ]
+ },
+ "encoder_layers.encoder_layer_7.mha.smolgen.smol_weight_gen_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   4096,
+   256
+  ],
+  "data_offsets": [
+   567710720,
+   571905024
+  ]
+ },
+ "encoder_layers.encoder_layer_7.mha.v_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   571905024,
+   571909120
+  ]
+ },
+ "encoder_layers.encoder_layer_7.mha.v_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   571909120,
+   576103424
+  ]
+ },
+ "encoder_layers.encoder_layer_8.ffn.dense1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1536
+  ],
+  "data_offsets": [
+   576103424,
+   576109568
+  ]
+ },
+ "encoder_layers.encoder_layer_8.ffn.dense1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1536,
+   1024
+  ],
+  "data_offsets": [
+   576109568,
+   582401024
+  ]
+ },
+ "encoder_layers.encoder_layer_8.ffn.dense2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   582401024,
+   582405120
+  ]
+ },
+ "encoder_layers.encoder_layer_8.ffn.dense2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1536
+  ],
+  "data_offsets": [
+   582405120,
+   588696576
+  ]
+ },
+ "encoder_layers.encoder_layer_8.ln1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   588696576,
+   588700672
+  ]
+ },
+ "encoder_layers.encoder_layer_8.ln1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   588700672,
+   588704768
+  ]
+ },
+ "encoder_layers.encoder_layer_8.ln2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   588704768,
+   588708864
+  ]
+ },
+ "encoder_layers.encoder_layer_8.ln2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   588708864,
+   588712960
+  ]
+ },
+ "encoder_layers.encoder_layer_8.mha.k_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   588712960,
+   588717056
+  ]
+ },
+ "encoder_layers.encoder_layer_8.mha.k_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   588717056,
+   592911360
+  ]
+ },
+ "encoder_layers.encoder_layer_8.mha.out_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   592911360,
+   592915456
+  ]
+ },
+ "encoder_layers.encoder_layer_8.mha.out_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   592915456,
+   597109760
+  ]
+ },
+ "encoder_layers.encoder_layer_8.mha.q_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   597109760,
+   597113856
+  ]
+ },
+ "encoder_layers.encoder_layer_8.mha.q_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   597113856,
+   601308160
+  ]
+ },
+ "encoder_layers.encoder_layer_8.mha.smolgen.compress.weight": {
+  "dtype": "F32",
+  "shape": [
+   32,
+   1024
+  ],
+  "data_offsets": [
+   601308160,
+   601439232
+  ]
+ },
+ "encoder_layers.encoder_layer_8.mha.smolgen.gen_from.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   601439232,
+   601472000
+  ]
+ },
+ "encoder_layers.encoder_layer_8.mha.smolgen.gen_from.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192,
+   256
+  ],
+  "data_offsets": [
+   601472000,
+   609860608
+  ]
+ },
+ "encoder_layers.encoder_layer_8.mha.smolgen.gen_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   609860608,
+   609893376
+  ]
+ },
+ "encoder_layers.encoder_layer_8.mha.smolgen.gen_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   609893376,
+   609926144
+  ]
+ },
+ "encoder_layers.encoder_layer_8.mha.smolgen.hidden_dense.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   609926144,
+   609927168
+  ]
+ },
+ "encoder_layers.encoder_layer_8.mha.smolgen.hidden_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   256,
+   2048
+  ],
+  "data_offsets": [
+   609927168,
+   612024320
+  ]
+ },
+ "encoder_layers.encoder_layer_8.mha.smolgen.hidden_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   612024320,
+   612025344
+  ]
+ },
+ "encoder_layers.encoder_layer_8.mha.smolgen.hidden_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   612025344,
+   612026368
+  ]
+ },
+ "encoder_layers.encoder_layer_8.mha.smolgen.smol_weight_gen_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   4096,
+   256
+  ],
+  "data_offsets": [
+   612026368,
+   616220672
+  ]
+ },
+ "encoder_layers.encoder_layer_8.mha.v_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   616220672,
+   616224768
+  ]
+ },
+ "encoder_layers.encoder_layer_8.mha.v_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   616224768,
+   620419072
+  ]
+ },
+ "encoder_layers.encoder_layer_9.ffn.dense1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1536
+  ],
+  "data_offsets": [
+   620419072,
+   620425216
+  ]
+ },
+ "encoder_layers.encoder_layer_9.ffn.dense1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1536,
+   1024
+  ],
+  "data_offsets": [
+   620425216,
+   626716672
+  ]
+ },
+ "encoder_layers.encoder_layer_9.ffn.dense2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   626716672,
+   626720768
+  ]
+ },
+ "encoder_layers.encoder_layer_9.ffn.dense2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1536
+  ],
+  "data_offsets": [
+   626720768,
+   633012224
+  ]
+ },
+ "encoder_layers.encoder_layer_9.ln1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   633012224,
+   633016320
+  ]
+ },
+ "encoder_layers.encoder_layer_9.ln1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   633016320,
+   633020416
+  ]
+ },
+ "encoder_layers.encoder_layer_9.ln2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   633020416,
+   633024512
+  ]
+ },
+ "encoder_layers.encoder_layer_9.ln2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   633024512,
+   633028608
+  ]
+ },
+ "encoder_layers.encoder_layer_9.mha.k_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   633028608,
+   633032704
+  ]
+ },
+ "encoder_layers.encoder_layer_9.mha.k_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   633032704,
+   637227008
+  ]
+ },
+ "encoder_layers.encoder_layer_9.mha.out_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   637227008,
+   637231104
+  ]
+ },
+ "encoder_layers.encoder_layer_9.mha.out_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   637231104,
+   641425408
+  ]
+ },
+ "encoder_layers.encoder_layer_9.mha.q_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   641425408,
+   641429504
+  ]
+ },
+ "encoder_layers.encoder_layer_9.mha.q_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   641429504,
+   645623808
+  ]
+ },
+ "encoder_layers.encoder_layer_9.mha.smolgen.compress.weight": {
+  "dtype": "F32",
+  "shape": [
+   32,
+   1024
+  ],
+  "data_offsets": [
+   645623808,
+   645754880
+  ]
+ },
+ "encoder_layers.encoder_layer_9.mha.smolgen.gen_from.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   645754880,
+   645787648
+  ]
+ },
+ "encoder_layers.encoder_layer_9.mha.smolgen.gen_from.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192,
+   256
+  ],
+  "data_offsets": [
+   645787648,
+   654176256
+  ]
+ },
+ "encoder_layers.encoder_layer_9.mha.smolgen.gen_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   654176256,
+   654209024
+  ]
+ },
+ "encoder_layers.encoder_layer_9.mha.smolgen.gen_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   8192
+  ],
+  "data_offsets": [
+   654209024,
+   654241792
+  ]
+ },
+ "encoder_layers.encoder_layer_9.mha.smolgen.hidden_dense.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   654241792,
+   654242816
+  ]
+ },
+ "encoder_layers.encoder_layer_9.mha.smolgen.hidden_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   256,
+   2048
+  ],
+  "data_offsets": [
+   654242816,
+   656339968
+  ]
+ },
+ "encoder_layers.encoder_layer_9.mha.smolgen.hidden_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   656339968,
+   656340992
+  ]
+ },
+ "encoder_layers.encoder_layer_9.mha.smolgen.hidden_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   656340992,
+   656342016
+  ]
+ },
+ "encoder_layers.encoder_layer_9.mha.smolgen.smol_weight_gen_dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   4096,
+   256
+  ],
+  "data_offsets": [
+   656342016,
+   660536320
+  ]
+ },
+ "encoder_layers.encoder_layer_9.mha.v_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   660536320,
+   660540416
+  ]
+ },
+ "encoder_layers.encoder_layer_9.mha.v_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   660540416,
+   664734720
+  ]
+ },
+ "input_block.embed.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   664734720,
+   664738816
+  ]
+ },
+ "input_block.embed.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   624
+  ],
+  "data_offsets": [
+   664738816,
+   667294720
+  ]
+ },
+ "input_block.ffn.dense1.bias": {
+  "dtype": "F32",
+  "shape": [
+   1536
+  ],
+  "data_offsets": [
+   667294720,
+   667300864
+  ]
+ },
+ "input_block.ffn.dense1.weight": {
+  "dtype": "F32",
+  "shape": [
+   1536,
+   1024
+  ],
+  "data_offsets": [
+   667300864,
+   673592320
+  ]
+ },
+ "input_block.ffn.dense2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   673592320,
+   673596416
+  ]
+ },
+ "input_block.ffn.dense2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1536
+  ],
+  "data_offsets": [
+   673596416,
+   679887872
+  ]
+ },
+ "input_block.ffn_ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   679887872,
+   679891968
+  ]
+ },
+ "input_block.ffn_ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   679891968,
+   679896064
+  ]
+ },
+ "input_block.ln.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   679896064,
+   679900160
+  ]
+ },
+ "input_block.ln.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   679900160,
+   679904256
+  ]
+ },
+ "input_block.ma_gating.add_gate": {
+  "dtype": "F32",
+  "shape": [
+   64,
+   1024
+  ],
+  "data_offsets": [
+   679904256,
+   680166400
+  ]
+ },
+ "input_block.ma_gating.mul_gate": {
+  "dtype": "F32",
+  "shape": [
+   64,
+   1024
+  ],
+  "data_offsets": [
+   680166400,
+   680428544
+  ]
+ },
+ "input_block.preprocess.bias": {
+  "dtype": "F32",
+  "shape": [
+   32768
+  ],
+  "data_offsets": [
+   680428544,
+   680559616
+  ]
+ },
+ "input_block.preprocess.weight": {
+  "dtype": "F32",
+  "shape": [
+   32768,
+   768
+  ],
+  "data_offsets": [
+   680559616,
+   781222912
+  ]
+ },
+ "moves_left_head.dense1.bias": {
+  "dtype": "F32",
+  "shape": [
+   128
+  ],
+  "data_offsets": [
+   781222912,
+   781223424
+  ]
+ },
+ "moves_left_head.dense1.weight": {
+  "dtype": "F32",
+  "shape": [
+   128,
+   2048
+  ],
+  "data_offsets": [
+   781223424,
+   782272000
+  ]
+ },
+ "moves_left_head.dense2.bias": {
+  "dtype": "F32",
+  "shape": [
+   1
+  ],
+  "data_offsets": [
+   782272000,
+   782272004
+  ]
+ },
+ "moves_left_head.dense2.weight": {
+  "dtype": "F32",
+  "shape": [
+   1,
+   128
+  ],
+  "data_offsets": [
+   782272004,
+   782272516
+  ]
+ },
+ "moves_left_head.embed.bias": {
+  "dtype": "F32",
+  "shape": [
+   32
+  ],
+  "data_offsets": [
+   782272516,
+   782272644
+  ]
+ },
+ "moves_left_head.embed.weight": {
+  "dtype": "F32",
+  "shape": [
+   32,
+   1024
+  ],
+  "data_offsets": [
+   782272644,
+   782403716
+  ]
+ },
+ "policy_embed.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   782403716,
+   782407812
+  ]
+ },
+ "policy_embed.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   782407812,
+   786602116
+  ]
+ },
+ "policy_next.k_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   786602116,
+   786603140
+  ]
+ },
+ "policy_next.k_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   256,
+   1024
+  ],
+  "data_offsets": [
+   786603140,
+   787651716
+  ]
+ },
+ "policy_next.promotion_offsets_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   4,
+   256
+  ],
+  "data_offsets": [
+   787651716,
+   787655812
+  ]
+ },
+ "policy_next.q_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   787655812,
+   787656836
+  ]
+ },
+ "policy_next.q_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   256,
+   1024
+  ],
+  "data_offsets": [
+   787656836,
+   788705412
+  ]
+ },
+ "policy_opponent.k_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   788705412,
+   788706436
+  ]
+ },
+ "policy_opponent.k_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   256,
+   1024
+  ],
+  "data_offsets": [
+   788706436,
+   789755012
+  ]
+ },
+ "policy_opponent.promotion_offsets_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   4,
+   256
+  ],
+  "data_offsets": [
+   789755012,
+   789759108
+  ]
+ },
+ "policy_opponent.q_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   789759108,
+   789760132
+  ]
+ },
+ "policy_opponent.q_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   256,
+   1024
+  ],
+  "data_offsets": [
+   789760132,
+   790808708
+  ]
+ },
+ "policy_optimistic_st.k_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   790808708,
+   790812804
+  ]
+ },
+ "policy_optimistic_st.k_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   790812804,
+   795007108
+  ]
+ },
+ "policy_optimistic_st.promotion_offsets_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   4,
+   1024
+  ],
+  "data_offsets": [
+   795007108,
+   795023492
+  ]
+ },
+ "policy_optimistic_st.q_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   795023492,
+   795027588
+  ]
+ },
+ "policy_optimistic_st.q_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   795027588,
+   799221892
+  ]
+ },
+ "policy_soft.k_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   799221892,
+   799222916
+  ]
+ },
+ "policy_soft.k_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   256,
+   1024
+  ],
+  "data_offsets": [
+   799222916,
+   800271492
+  ]
+ },
+ "policy_soft.promotion_offsets_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   4,
+   256
+  ],
+  "data_offsets": [
+   800271492,
+   800275588
+  ]
+ },
+ "policy_soft.q_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   256
+  ],
+  "data_offsets": [
+   800275588,
+   800276612
+  ]
+ },
+ "policy_soft.q_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   256,
+   1024
+  ],
+  "data_offsets": [
+   800276612,
+   801325188
+  ]
+ },
+ "policy_vanilla.k_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   801325188,
+   801329284
+  ]
+ },
+ "policy_vanilla.k_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   801329284,
+   805523588
+  ]
+ },
+ "policy_vanilla.promotion_offsets_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   4,
+   1024
+  ],
+  "data_offsets": [
+   805523588,
+   805539972
+  ]
+ },
+ "policy_vanilla.q_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1024
+  ],
+  "data_offsets": [
+   805539972,
+   805544068
+  ]
+ },
+ "policy_vanilla.q_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1024,
+   1024
+  ],
+  "data_offsets": [
+   805544068,
+   809738372
+  ]
+ },
+ "value_q.dense.bias": {
+  "dtype": "F32",
+  "shape": [
+   128
+  ],
+  "data_offsets": [
+   809738372,
+   809738884
+  ]
+ },
+ "value_q.dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   128,
+   8192
+  ],
+  "data_offsets": [
+   809738884,
+   813933188
+  ]
+ },
+ "value_q.embed.bias": {
+  "dtype": "F32",
+  "shape": [
+   128
+  ],
+  "data_offsets": [
+   813933188,
+   813933700
+  ]
+ },
+ "value_q.embed.weight": {
+  "dtype": "F32",
+  "shape": [
+   128,
+   1024
+  ],
+  "data_offsets": [
+   813933700,
+   814457988
+  ]
+ },
+ "value_q.val_cat_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   32
+  ],
+  "data_offsets": [
+   814457988,
+   814458116
+  ]
+ },
+ "value_q.val_cat_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   32,
+   128
+  ],
+  "data_offsets": [
+   814458116,
+   814474500
+  ]
+ },
+ "value_q.val_err_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1
+  ],
+  "data_offsets": [
+   814474500,
+   814474504
+  ]
+ },
+ "value_q.val_err_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1,
+   128
+  ],
+  "data_offsets": [
+   814474504,
+   814475016
+  ]
+ },
+ "value_q.val_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   3
+  ],
+  "data_offsets": [
+   814475016,
+   814475028
+  ]
+ },
+ "value_q.val_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   3,
+   128
+  ],
+  "data_offsets": [
+   814475028,
+   814476564
+  ]
+ },
+ "value_st.dense.bias": {
+  "dtype": "F32",
+  "shape": [
+   128
+  ],
+  "data_offsets": [
+   814476564,
+   814477076
+  ]
+ },
+ "value_st.dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   128,
+   8192
+  ],
+  "data_offsets": [
+   814477076,
+   818671380
+  ]
+ },
+ "value_st.embed.bias": {
+  "dtype": "F32",
+  "shape": [
+   128
+  ],
+  "data_offsets": [
+   818671380,
+   818671892
+  ]
+ },
+ "value_st.embed.weight": {
+  "dtype": "F32",
+  "shape": [
+   128,
+   1024
+  ],
+  "data_offsets": [
+   818671892,
+   819196180
+  ]
+ },
+ "value_st.val_cat_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   32
+  ],
+  "data_offsets": [
+   819196180,
+   819196308
+  ]
+ },
+ "value_st.val_cat_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   32,
+   128
+  ],
+  "data_offsets": [
+   819196308,
+   819212692
+  ]
+ },
+ "value_st.val_err_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   1
+  ],
+  "data_offsets": [
+   819212692,
+   819212696
+  ]
+ },
+ "value_st.val_err_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   1,
+   128
+  ],
+  "data_offsets": [
+   819212696,
+   819213208
+  ]
+ },
+ "value_st.val_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   3
+  ],
+  "data_offsets": [
+   819213208,
+   819213220
+  ]
+ },
+ "value_st.val_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   3,
+   128
+  ],
+  "data_offsets": [
+   819213220,
+   819214756
+  ]
+ },
+ "value_winner.dense.bias": {
+  "dtype": "F32",
+  "shape": [
+   128
+  ],
+  "data_offsets": [
+   819214756,
+   819215268
+  ]
+ },
+ "value_winner.dense.weight": {
+  "dtype": "F32",
+  "shape": [
+   128,
+   8192
+  ],
+  "data_offsets": [
+   819215268,
+   823409572
+  ]
+ },
+ "value_winner.embed.bias": {
+  "dtype": "F32",
+  "shape": [
+   128
+  ],
+  "data_offsets": [
+   823409572,
+   823410084
+  ]
+ },
+ "value_winner.embed.weight": {
+  "dtype": "F32",
+  "shape": [
+   128,
+   1024
+  ],
+  "data_offsets": [
+   823410084,
+   823934372
+  ]
+ },
+ "value_winner.val_proj.bias": {
+  "dtype": "F32",
+  "shape": [
+   3
+  ],
+  "data_offsets": [
+   823934372,
+   823934384
+  ]
+ },
+ "value_winner.val_proj.weight": {
+  "dtype": "F32",
+  "shape": [
+   3,
+   128
+  ],
+  "data_offsets": [
+   823934384,
+   823935920
+  ]
+ }
+}

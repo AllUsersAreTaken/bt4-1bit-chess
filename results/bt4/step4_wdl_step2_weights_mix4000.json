@@ -1,0 +1,14 @@
+{
+ "label": "step2_weights_mix4000",
+ "n": 2437,
+ "wdl_argmax_agree": 0.8096,
+ "win_prob_mae": 0.1095,
+ "score_corr": 0.9203,
+ "value_mse": 0.03323,
+ "teacher_score_mean": 0.1107,
+ "student_score_mean": 0.1832,
+ "teacher_win_mean": 0.4088,
+ "student_win_mean": 0.4454,
+ "student_draw_rate": 0.2925,
+ "teacher_draw_rate": 0.2931
+}

@@ -1,0 +1,57 @@
+{
+ "head": {
+  "arm": "qubo_act",
+  "scope": "scope2",
+  "space": "mixed",
+  "sign": false,
+  "seed": 0,
+  "trainable": 150258345,
+  "bits": 2404133520,
+  "bpw": 16.0368,
+  "batch": 64,
+  "steps": 20,
+  "lr_sign": 0.0001,
+  "lr_scale": 0.0002,
+  "pool": 128000,
+  "w": {
+   "policy": 1.0,
+   "value": 1.0,
+   "hidden": 1.0
+  }
+ },
+ "history": [
+  {
+   "step": 0,
+   "solve_top1": 0.235,
+   "solve_top5": 0.479,
+   "agree": 0.2025,
+   "kl": 2.2931,
+   "nonfinite": 0,
+   "pos_per_s": 380.6,
+   "game_agree": 0.1871,
+   "game_kl": 1.4876,
+   "game_gold": 0.206,
+   "start": "h2h3"
+  },
+  {
+   "step": 20,
+   "solve_top1": 0.21,
+   "solve_top5": 0.4495,
+   "agree": 0.1875,
+   "kl": 2.2449,
+   "nonfinite": 0,
+   "pos_per_s": 382.3,
+   "game_agree": 0.1966,
+   "game_kl": 1.4204,
+   "game_gold": 0.2183,
+   "start": "b1a3"
+  }
+ ],
+ "wall_s": 18.3,
+ "best": {
+  "step": 0,
+  "game_kl": null,
+  "path": null
+ },
+ "peak_gib": 7.19
+}

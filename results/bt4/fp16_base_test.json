@@ -1,0 +1,33 @@
+{
+ "split": "test",
+ "n": 2000,
+ "ckpt": "data/bt4/BT4-1024x15x32h-swa-6147500.pb.gz",
+ "device": "cuda",
+ "dtype": "fp16",
+ "batch": 64,
+ "load_s": 2.98,
+ "infer_s": 1.68,
+ "pos_per_s": 1191.12,
+ "ms_per_pos": 0.84,
+ "solve_top1": 0.944,
+ "solve_top5": 0.998,
+ "legal_moves_mean": 30.7,
+ "legal_moves_min": 2,
+ "legal_moves_max": 59,
+ "entropy_nats": 0.7962,
+ "entropy_norm": 0.2428,
+ "top1_prob": 0.8161,
+ "wdl_argmax": {
+  "win": 1418,
+  "draw": 415,
+  "loss": 167
+ },
+ "wdl_mean": {
+  "win": 0.6762,
+  "draw": 0.2229,
+  "loss": 0.1009
+ },
+ "mean_q": 0.5753,
+ "mean_q_solved": 0.6105,
+ "mean_q_unsolved": -0.0173
+}

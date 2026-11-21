@@ -1,0 +1,20 @@
+{
+ "label": "exact_svd_rank_r_fp16",
+ "ranks_note": "r = round(d_out*d_in/(d_out+d_in)), same as the 1.04 bpw path",
+ "n_matrices": 105,
+ "n_weights": 149913600,
+ "mean_rel_fro_err": 0.1953,
+ "max_rel_fro_err": 0.319,
+ "factor_bits": 2397872640,
+ "factor_bpw": 16.0,
+ "solve_top1": 0.311,
+ "solve_top5": 0.7945,
+ "agree": 0.2685,
+ "kl": 2.1477,
+ "nonfinite": 0,
+ "pos_per_s": 1363.7,
+ "game_agree": 0.2179,
+ "game_kl": 1.4404,
+ "game_gold": 0.2298,
+ "start": "b1c3"
+}

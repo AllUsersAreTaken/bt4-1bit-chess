@@ -1,0 +1,32 @@
+{
+ "head": {
+  "arm": "itq",
+  "scope": "scope2",
+  "trainable": 150258345,
+  "bits": 156127920,
+  "bpw": 1.0415,
+  "batch": 128,
+  "steps": 0,
+  "lr_sign": 0.0001,
+  "lr_scale": 0.0002,
+  "pool": 512,
+  "w": {
+   "policy": 1.0,
+   "value": 1.0,
+   "hidden": 1.0
+  }
+ },
+ "history": [
+  {
+   "step": 0,
+   "solve_top1": 0.0245,
+   "solve_top5": 0.1585,
+   "agree": 0.0245,
+   "kl": 2.479,
+   "nonfinite": 0,
+   "pos_per_s": 362.7
+  }
+ ],
+ "wall_s": 0.0,
+ "peak_gib": 2.18
+}

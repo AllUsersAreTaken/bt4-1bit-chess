@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.pt
+*.npy
+# 3.3 GB of Lichess data and BT4 weights are not in the repo - see README
+data/

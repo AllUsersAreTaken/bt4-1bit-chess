@@ -1,0 +1,123 @@
+{
+ "head": {
+  "arm": "itq",
+  "scope": "scope2",
+  "seed": 0,
+  "trainable": 150258345,
+  "bits": 156127920,
+  "bpw": 1.0415,
+  "batch": 64,
+  "steps": 2000,
+  "lr_sign": 0.0001,
+  "lr_scale": 0.0002,
+  "pool": 60000,
+  "w": {
+   "policy": 1.0,
+   "value": 1.0,
+   "hidden": 1.0
+  }
+ },
+ "history": [
+  {
+   "step": 0,
+   "solve_top1": 0.1185,
+   "solve_top5": 0.374,
+   "agree": 0.1025,
+   "kl": 2.4663,
+   "nonfinite": 0,
+   "pos_per_s": 358.4
+  },
+  {
+   "step": 200,
+   "solve_top1": 0.5025,
+   "solve_top5": 0.918,
+   "agree": 0.383,
+   "kl": 1.1093,
+   "nonfinite": 0,
+   "pos_per_s": 224.4
+  },
+  {
+   "step": 400,
+   "solve_top1": 0.567,
+   "solve_top5": 0.936,
+   "agree": 0.4485,
+   "kl": 0.9452,
+   "nonfinite": 0,
+   "pos_per_s": 273.9
+  },
+  {
+   "step": 600,
+   "solve_top1": 0.6,
+   "solve_top5": 0.949,
+   "agree": 0.473,
+   "kl": 0.8667,
+   "nonfinite": 0,
+   "pos_per_s": 197.4
+  },
+  {
+   "step": 800,
+   "solve_top1": 0.602,
+   "solve_top5": 0.9445,
+   "agree": 0.471,
+   "kl": 0.8712,
+   "nonfinite": 0,
+   "pos_per_s": 371.2
+  },
+  {
+   "step": 1000,
+   "solve_top1": 0.611,
+   "solve_top5": 0.95,
+   "agree": 0.4745,
+   "kl": 0.8402,
+   "nonfinite": 0,
+   "pos_per_s": 219.3
+  },
+  {
+   "step": 1200,
+   "solve_top1": 0.6515,
+   "solve_top5": 0.951,
+   "agree": 0.5185,
+   "kl": 0.8539,
+   "nonfinite": 0,
+   "pos_per_s": 371.5
+  },
+  {
+   "step": 1400,
+   "solve_top1": 0.6575,
+   "solve_top5": 0.956,
+   "agree": 0.5225,
+   "kl": 0.8193,
+   "nonfinite": 0,
+   "pos_per_s": 219.1
+  },
+  {
+   "step": 1600,
+   "solve_top1": 0.6585,
+   "solve_top5": 0.9555,
+   "agree": 0.517,
+   "kl": 0.8308,
+   "nonfinite": 0,
+   "pos_per_s": 371.2
+  },
+  {
+   "step": 1800,
+   "solve_top1": 0.664,
+   "solve_top5": 0.9515,
+   "agree": 0.5325,
+   "kl": 0.862,
+   "nonfinite": 0,
+   "pos_per_s": 367.5
+  },
+  {
+   "step": 2000,
+   "solve_top1": 0.673,
+   "solve_top5": 0.947,
+   "agree": 0.5415,
+   "kl": 0.8865,
+   "nonfinite": 0,
+   "pos_per_s": 272.8
+  }
+ ],
+ "wall_s": 1787.0,
+ "peak_gib": 7.64
+}

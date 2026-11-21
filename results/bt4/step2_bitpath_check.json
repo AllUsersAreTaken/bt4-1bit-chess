@@ -1,0 +1,16 @@
+{
+ "arm": "itq",
+ "n_positions": 8,
+ "logit_scale": 2.219,
+ "max_abs_delta_policy": 6.318e-06,
+ "max_abs_delta_value": 2.027e-06,
+ "max_rel_delta_policy": 2.848e-06,
+ "max_abs_delta_inproj_weight": 0.0,
+ "inproj_rel": 0.0,
+ "bits": 156127920,
+ "n_weights": 149913600,
+ "bpw": 1.0415,
+ "fp16_pos_per_s": 335.5,
+ "peak_gib": 1.92,
+ "pass_dense_vs_path": true
+}

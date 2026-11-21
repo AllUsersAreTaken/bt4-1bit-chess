@@ -1,0 +1,161 @@
+{
+ "source": "shermansiu/lc0_BT4-1024x15x32h-swa-6147500 :: model.safetensors",
+ "tensor_count": 463,
+ "total_params": 205983980,
+ "total_params_m": 205.984,
+ "dtype": "float32 (decoded from lc0 LINEAR16)",
+ "by_category": {
+  "block.smolgen": {
+   "params": 55921920,
+   "m": 55.922,
+   "n_tensors": 150
+  },
+  "block.mlp": {
+   "params": 47185920,
+   "m": 47.186,
+   "n_tensors": 30
+  },
+  "input_block": {
+   "params": 29122048,
+   "m": 29.122,
+   "n_tensors": 14
+  },
+  "block.other:k_proj.weight": {
+   "params": 15728640,
+   "m": 15.729,
+   "n_tensors": 15
+  },
+  "block.other:out_proj.weight": {
+   "params": 15728640,
+   "m": 15.729,
+   "n_tensors": 15
+  },
+  "block.other:q_proj.weight": {
+   "params": 15728640,
+   "m": 15.729,
+   "n_tensors": 15
+  },
+  "block.other:v_proj.weight": {
+   "params": 15728640,
+   "m": 15.729,
+   "n_tensors": 15
+  },
+  "policy_optimistic_st": {
+   "params": 2103296,
+   "m": 2.103,
+   "n_tensors": 5
+  },
+  "policy_vanilla": {
+   "params": 2103296,
+   "m": 2.103,
+   "n_tensors": 5
+  },
+  "value_q": {
+   "params": 1184548,
+   "m": 1.185,
+   "n_tensors": 10
+  },
+  "value_st": {
+   "params": 1184548,
+   "m": 1.185,
+   "n_tensors": 10
+  },
+  "value_winner": {
+   "params": 1180291,
+   "m": 1.18,
+   "n_tensors": 6
+  },
+  "policy_embed": {
+   "params": 1049600,
+   "m": 1.05,
+   "n_tensors": 2
+  },
+  "policy_next": {
+   "params": 525824,
+   "m": 0.526,
+   "n_tensors": 5
+  },
+  "policy_opponent": {
+   "params": 525824,
+   "m": 0.526,
+   "n_tensors": 5
+  },
+  "policy_soft": {
+   "params": 525824,
+   "m": 0.526,
+   "n_tensors": 5
+  },
+  "moves_left_head": {
+   "params": 295201,
+   "m": 0.295,
+   "n_tensors": 6
+  },
+  "block.other:bias": {
+   "params": 30720,
+   "m": 0.031,
+   "n_tensors": 30
+  },
+  "block.other:weight": {
+   "params": 30720,
+   "m": 0.031,
+   "n_tensors": 30
+  },
+  "block.bias.dense1": {
+   "params": 23040,
+   "m": 0.023,
+   "n_tensors": 15
+  },
+  "block.bias.dense2": {
+   "params": 15360,
+   "m": 0.015,
+   "n_tensors": 15
+  },
+  "block.bias.k_proj": {
+   "params": 15360,
+   "m": 0.015,
+   "n_tensors": 15
+  },
+  "block.bias.out_proj": {
+   "params": 15360,
+   "m": 0.015,
+   "n_tensors": 15
+  },
+  "block.bias.q_proj": {
+   "params": 15360,
+   "m": 0.015,
+   "n_tensors": 15
+  },
+  "block.bias.v_proj": {
+   "params": 15360,
+   "m": 0.015,
+   "n_tensors": 15
+  }
+ },
+ "quantize_set": {
+  "cats": [
+   "block.attn",
+   "block.mlp"
+  ],
+  "params": 47185920,
+  "m": 47.186,
+  "share_of_total": 0.2291,
+  "rows": 38400,
+  "bits": 47800320,
+  "bytes_at_1bpw": 5975040,
+  "mb_at_1bpw": 5.98
+ },
+ "keep_fp16": {
+  "params": 158798060,
+  "m": 158.798,
+  "share_of_total": 0.7709,
+  "mb": 317.6
+ },
+ "smolgen_2d_excluded": {
+  "params": 55541760,
+  "m": 55.542,
+  "n": 60,
+  "mb_if_1bpw": 7.32
+ },
+ "artifact_total_mb": 323.58,
+ "fp16_baseline_mb": 412.0
+}

@@ -1,0 +1,21 @@
+{
+ "label": "exact_svd_rank_4x_r_fp16",
+ "mult": 4.0,
+ "ranks_note": "r = mult * round(d_out*d_in/(d_out+d_in)); 1x is the 1.04 bpw path",
+ "n_matrices": 105,
+ "n_weights": 149913600,
+ "mean_rel_fro_err": 0.0002,
+ "max_rel_fro_err": 0.0003,
+ "factor_bits": 3436953600,
+ "factor_bpw": 22.93,
+ "solve_top1": 0.944,
+ "solve_top5": 0.998,
+ "agree": 0.827,
+ "kl": 0.0,
+ "nonfinite": 0,
+ "pos_per_s": 1357.6,
+ "game_agree": 0.9992,
+ "game_kl": 0.0,
+ "game_gold": 0.4079,
+ "start": "d2d4"
+}

@@ -1,0 +1,33 @@
+{
+ "split": "calib",
+ "n": 512,
+ "ckpt": "data/bt4/BT4-1024x15x32h-swa-6147500.pb.gz",
+ "device": "cuda",
+ "dtype": "fp16",
+ "batch": 64,
+ "load_s": 2.99,
+ "infer_s": 0.51,
+ "pos_per_s": 1002.83,
+ "ms_per_pos": 1.0,
+ "solve_top1": 0.9414,
+ "solve_top5": 0.998,
+ "legal_moves_mean": 31.15,
+ "legal_moves_min": 2,
+ "legal_moves_max": 58,
+ "entropy_nats": 0.8181,
+ "entropy_norm": 0.249,
+ "top1_prob": 0.8086,
+ "wdl_argmax": {
+  "win": 351,
+  "draw": 111,
+  "loss": 50
+ },
+ "wdl_mean": {
+  "win": 0.653,
+  "draw": 0.2341,
+  "loss": 0.1129
+ },
+ "mean_q": 0.5401,
+ "mean_q_solved": 0.581,
+ "mean_q_unsolved": -0.1169
+}

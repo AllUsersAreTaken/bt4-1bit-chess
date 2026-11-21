@@ -1,0 +1,217 @@
+{
+ "label": "fp16_teacher",
+ "ladder": [
+  1900,
+  2200,
+  2500
+ ],
+ "games_per_rung": 8,
+ "sf_movetime": 0.02,
+ "seed": 0,
+ "max_ply": 140,
+ "fit": {
+  "rating": 2650.0,
+  "lo": 2495.0,
+  "hi": 2950.0,
+  "n": 24,
+  "score": 0.8542,
+  "decisive": 21
+ },
+ "games": [
+  {
+   "opp_elo": 1900,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 65,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1900,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 50,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1900,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 65,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1900,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 72,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1900,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 61,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1900,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 66,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1900,
+   "score": 0.0,
+   "result": "0-1",
+   "plies": 38,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 1900,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 60,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 2200,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 93,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 2200,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 50,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 2200,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 67,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 2200,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 46,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 2200,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 127,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 2200,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 60,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 2200,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 81,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 2200,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 54,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 2500,
+   "score": 0.5,
+   "result": "1/2-1/2",
+   "plies": 91,
+   "model_is_white": true,
+   "reason": "draw_rule"
+  },
+  {
+   "opp_elo": 2500,
+   "score": 0.5,
+   "result": "1/2-1/2",
+   "plies": 78,
+   "model_is_white": false,
+   "reason": "draw_rule"
+  },
+  {
+   "opp_elo": 2500,
+   "score": 0.5,
+   "result": "1/2-1/2",
+   "plies": 102,
+   "model_is_white": true,
+   "reason": "draw_rule"
+  },
+  {
+   "opp_elo": 2500,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 88,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 2500,
+   "score": 1.0,
+   "result": "1-0",
+   "plies": 41,
+   "model_is_white": true,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 2500,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 76,
+   "model_is_white": false,
+   "reason": "checkmate"
+  },
+  {
+   "opp_elo": 2500,
+   "score": 0.0,
+   "result": "0-1",
+   "plies": 140,
+   "model_is_white": true,
+   "reason": "adjudicated"
+  },
+  {
+   "opp_elo": 2500,
+   "score": 1.0,
+   "result": "0-1",
+   "plies": 96,
+   "model_is_white": false,
+   "reason": "checkmate"
+  }
+ ],
+ "wall_s": 30.7,
+ "model_moves": 840,
+ "model_s_per_move": 0.0118
+}

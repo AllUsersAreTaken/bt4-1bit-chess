@@ -1,0 +1,57 @@
+{
+ "head": {
+  "arm": "qubo_act",
+  "scope": "scope2",
+  "space": "mixed",
+  "sign": false,
+  "seed": 0,
+  "trainable": 150258345,
+  "bits": 2404133520,
+  "bpw": 16.0368,
+  "batch": 64,
+  "steps": 20,
+  "lr_sign": 0.0001,
+  "lr_scale": 0.0002,
+  "pool": 128000,
+  "w": {
+   "policy": 1.0,
+   "value": 1.0,
+   "hidden": 1.0
+  }
+ },
+ "history": [
+  {
+   "step": 0,
+   "solve_top1": 0.047,
+   "solve_top5": 0.216,
+   "agree": 0.035,
+   "kl": 3.9651,
+   "nonfinite": 0,
+   "pos_per_s": 381.4,
+   "game_agree": 0.0455,
+   "game_kl": 2.9992,
+   "game_gold": 0.0431,
+   "start": "g1h3"
+  },
+  {
+   "step": 20,
+   "solve_top1": 0.048,
+   "solve_top5": 0.216,
+   "agree": 0.035,
+   "kl": 3.9417,
+   "nonfinite": 0,
+   "pos_per_s": 383.1,
+   "game_agree": 0.0464,
+   "game_kl": 2.98,
+   "game_gold": 0.0439,
+   "start": "g1h3"
+  }
+ ],
+ "wall_s": 18.5,
+ "best": {
+  "step": 20,
+  "game_kl": 2.98,
+  "path": "results\\bt4\\step2_weights_smoke_ranklr_best.pt"
+ },
+ "peak_gib": 7.17
+}

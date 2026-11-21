@@ -1,0 +1,57 @@
+{
+ "head": {
+  "arm": "bit1",
+  "scope": "scope2",
+  "space": "mixed",
+  "sign": true,
+  "seed": 0,
+  "trainable": 150259680,
+  "bits": 155450880,
+  "bpw": 1.0369,
+  "batch": 64,
+  "steps": 20,
+  "lr_sign": 0.0001,
+  "lr_scale": 0.0002,
+  "pool": 128000,
+  "w": {
+   "policy": 1.0,
+   "value": 1.0,
+   "hidden": 1.0
+  }
+ },
+ "history": [
+  {
+   "step": 0,
+   "solve_top1": 0.078,
+   "solve_top5": 0.2875,
+   "agree": 0.0625,
+   "kl": 2.4728,
+   "nonfinite": 0,
+   "pos_per_s": 348.2,
+   "game_agree": 0.078,
+   "game_kl": 1.5867,
+   "game_gold": 0.089,
+   "start": "h2h3"
+  },
+  {
+   "step": 20,
+   "solve_top1": 0.1455,
+   "solve_top5": 0.461,
+   "agree": 0.105,
+   "kl": 2.4668,
+   "nonfinite": 0,
+   "pos_per_s": 349.6,
+   "game_agree": 0.1153,
+   "game_kl": 1.585,
+   "game_gold": 0.1215,
+   "start": "b1a3"
+  }
+ ],
+ "wall_s": 29.8,
+ "best": {
+  "step": 0,
+  "game_kl": null,
+  "path": null
+ },
+ "peak_gib": 7.75
+}
